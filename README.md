@@ -17,7 +17,7 @@ O VerificaAAA é nome do projeto criado a partir do curso de Interação Humano 
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/patrickacs" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
+    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/patrickacs" width="100px;" alt=""/><br /><sub><b>VPatrick Anderson</b></sub></a><br />
     <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/caiomsabino.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
     <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/JoaoSapiencia.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
     <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/PedrooCamilo.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
