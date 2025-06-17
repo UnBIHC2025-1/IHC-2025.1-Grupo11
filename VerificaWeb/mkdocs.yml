@@ -1,13 +1,13 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
+repo_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo11
+repo_name: IHC-2025.1-Grupo11
 
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
+site_url: https://UnBIHC2025-1.github.io/IHC-2025.1-Grupo11/
+site_name: VerificaWeb
 
 use_directory_urls: False
 
 nav:
-  - Início - VerificAAA: 'index.md'
+  - Início - VerificaWeb: 'index.md'
 
   - Desenvolvimento Web:
     - Desenvolvimento: 'devWeb/non_text_content.md'
