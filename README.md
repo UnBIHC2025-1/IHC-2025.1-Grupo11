@@ -1,7 +1,7 @@
 # VerificaAAA
 
 <div align="center">
-<img src="docs/imagens/logo-verificaaa.png" alt="Logo de prancheta com checklist" style="width: 100px">
+<img src="VerificaWeb/docs/imagens/logo-verificaaa.png" alt="Logo de prancheta com checklist" style="width: 100px">
 </div>
 
 
