@@ -4,16 +4,24 @@
 
 Nessa lógica, durante a etapa inicial do desenvolvimento de um software, elabore personas com os seguintes perfis abaixo, dessa forma, seu projeto vai garantir que o software contenha requisitos de acessibilidade.
 
+## Definição de personas
 Em seu projeto, foram elaboradas personas para... 
 
-- [ ] <b> Pessoas com Deficiência Visual </b> (cegueira, baixa visão, daltonismo ou deficiência cromática)
-- [ ] <b> Pessoas com Deficiência Física </b> (fraqueza, tremores, movimentos involuntá rios, paralisia, limitações da sensação, dor que impede movimento, ausênciade membros) 
-- [ ] <b> Pessoas com Deficiência Auditiva </b> (surdez, baixa audição, surdocegueira)
-- [ ] <b> Pessoas com Deficiência na Fala </b> (dificuldade para falar, volume insuficiente, gagueira, mudez) 
-- [ ] <b> Pessoas Neurodiversas </b> (dificuldades de diferentes graus para ver, escutar, falar, compreender e interagir socialmente)
-- [ ] <b> Pessoas com Múltiplas Deficiências </b> (combinação de duas ou mais deficiências anteriores)
-- [ ] <b> Possíveis limitações decorrentes do envelhecimento </b> (que podem ser de um ou mais grupos de deficiências)
-- [ ] <b> Pessoas com analfabetismo </b> (analfabetismo digital e funcional níveis 1, 2 e 3)
+- [ ] <b> O projeto considera personas com Deficiência visual </b> (cegueira, baixa visão, daltonismo ou deficiência cromática)?
+- [ ] <b> O projeto considera personas com Deficiência física </b> (fraqueza, tremores, movimentos involuntá rios, paralisia, limitações da sensação, dor que impede movimento, ausênciade membros)?
+- [ ] <b> O projeto considera personas com Deficiência auditiva </b> (surdez, baixa audição, surdocegueira)?
+- [ ] <b> O projeto considera personas com Deficiência intelectual </b> (dificuldades cognitivas)?
+- [ ] <b> O projeto considera personas Neurodivergentes </b> (autismo , TDAH, dificuldades na comunicação ou interação)?
+- [ ] <b> O projeto considera personas com Deficiência na Fala </b> (dificuldade para falar, volume insuficiente, gagueira, mudez)? 
+- [ ] <b> O projeto considera personas com Múltiplas Deficiências </b> (combinação de duas ou mais deficiências anteriores)?
+- [ ] <b> O projeto considera personas com limitações decorrentes do envelhecimento </b> (baixa visão, tremores, dificuldades motoras)?
+- [ ] <b> O projeto considera personas com baixo letramento digital ou analfabetismo funcional </b> (níveis 1, 2 ou 3)?
+
+## Formalização
+
+- [ ] <b> Existe um documento formalizando o escopo do projeto, incluindo acessibilidade como requisito desde o início?
+- [ ] <b> As áreas envolvidas (desenvolvimento, design, marketing, RH, compras, etc.) foram engajadas no tema da acessibilidade?
+- [ ] <b> Pessoas com deficiência foram envolvidas no levantamento de requisitos ou validação do projeto?
 
 # Conscientização
 
@@ -23,18 +31,25 @@ Sendo assim, existem argumentos que podem facilitar o processo de conscientizaç
 
 Em seu projeto, a equipe está consciente de...
 
-- [ ] Quantidade de pessoas no mundo com algum tipo de deficiência.
-- [ ] Quantidade de pessoas no Brasil com algum tipo de deficiência, segundo IBGE.
-- [ ] Natureza da deficiência: congênita, hereditária, adquirida, temporária.
-- [ ] Grupos mais comuns de tipos de deficiência.
-- [ ] Quanto custa a acessibilidade?
-- [ ] Quanto tempo a mais o projeto precisará para implementar acessibilidade?
-- [ ] Quantas pessoas com deficiência vão usar meu aplicativo ou acessar meu sítio de Internet?
-- [ ] Pessoas cegas compram online?
-- [ ] Pessoas tetraplégicas usam smartphone?
-- [ ] Legislação: A Convenção sobre os Direitos das Pessoas com Deficiência Comentada.
-- [ ] Legislação: PORTARIA Nº 3, DE 7 DE MAIO DE 2007.
-- [ ] Análise de mercado de software de acessibilidade digital.
+## A equipe conhece:
+
+- [ ] Quantas pessoas no mundo possuem algum tipo de deficiência?
+- [ ] Quantas pessoas no Brasil possuem deficiência, segundo dados oficiais (ex.: IBGE)?
+- [ ] As diferentes categorias de deficiência (visual, auditiva, física, intelectual, múltipla, neurodivergência)?
+- [ ] As limitações temporárias (ex.: braço quebrado, queda de energia, envelhecimento)?
+- [ ] A importância da acessibilidade como direito e como diferencial de mercado?
+
+## O Projeto considera:
+
+- [ ] Barreiras de acessibilidade mais comuns na web e em aplicativos?
+- [ ] O impacto de não implementar acessibilidade (exclusão social, perda de clientes, risco jurídico)?
+- [ ] Existe apoio da liderança ou da gestão para investir em acessibilidade?
+
+## Normas e Legislação:
+
+- [ ] O time conhece as diretrizes WCAG 2.2?
+- [ ] O time conhece a NBR 17225 (acessibilidade digital brasileira)?
+- [ ] O time conhece leis e portarias aplicáveis no Brasil (ex.: Lei Brasileira de Inclusão, Decreto nº 5.296/2004, Portaria nº 3/2007)?
 
 # Planejamento
 
@@ -42,17 +57,24 @@ Em seu projeto, a equipe está consciente de...
 
 Assim, é de suma importância que se tenha, incluso no plano de projeto, e, definição de recursos alocados, para estratégia de acessibilidade de um projeto de software. 
 
+## Planejamento de Arquitetura e Processos:
 Em seu planejamento, há...
 
-- [ ] Atividades bem delineadas, cronogramas e atribuições de responsabilidade relacionadas à acessibilidade?
-- [ ] Recursos alocados (pessoas, softwares, cursos, tarefas)?
-- [ ] Tarefas com critérios de sucesso que atendam pelo menos os níveis A e AA, segundo a documentação de acessibilidade (WCAG)?
+- [ ] A arquitetura da informação foi pensada para garantir autonomia e segurança para todos os públicos?
+- [ ] Existem atividades bem definidas, cronogramas e responsáveis para os itens de acessibilidade?
+- [ ] O orçamento do projeto contempla recursos destinados à acessibilidade?
+- [ ] O plano de projeto inclui testes com pessoas com deficiência?
+- [ ] Foram mapeados os recursos necessários: ferramentas, pessoas, tempo, treinamentos?
 
-## Referências Bibliográficas
+## Critérios técnicos:
+- [ ] Foram definidos critérios de sucesso para acessibilidade (ex.: nível AA da WCAG)?
+- [ ] O time está alinhado sobre quais níveis de conformidade o projeto deve alcançar (A, AA ou AAA)?
+
+# Referências Bibliográficas
 
 > <a id="RP1" href="#TEC1">1.</a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
 
-## Bibliografia
+# Bibliografia
 
 > </a> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital . _ Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 9 Mai. 2024
 
