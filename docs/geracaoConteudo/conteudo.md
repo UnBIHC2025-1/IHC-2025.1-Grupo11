@@ -6,9 +6,15 @@ Para criar conteúdo digital verdadeiramente acessível, o ponto de partida é r
 Nesta seção, apresentamos um checklist com boas práticas para assegurar a acessibilidade na sua geração de conteúdo.
 
 ## Termos
+
+A forma como nos referimos às pessoas impacta diretamente a maneira como elas se sentem representadas e valorizadas. Utilizar a terminologia correta e respeitosa é o primeiro passo para cultivar uma comunicação verdadeiramente inclusiva.
+
 - [ ] Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
 
 ## Linguagem, Clareza e Inclusão
+
+A clareza e a simplicidade da linguagem são pilares da acessibilidade. Um texto fácil de entender beneficia a todos, incluindo pessoas com deficiências cognitivas, dislexia, ou mesmo aqueles que estão aprendendo o idioma.
+
 - [ ] O texto utiliza linguagem clara, direta e objetiva?
 - [ ] As palavras são simples, conhecidas e livres de termos técnicos desnecessários?
 - [ ] Foram evitadas figuras de linguagem, gírias, expressões regionais, expressões subjetivas e metáforas?
@@ -19,6 +25,9 @@ Nesta seção, apresentamos um checklist com boas práticas para assegurar a ace
 - [ ] Foram usadas pontuações corretas, que auxiliam na leitura por leitores de tela?
 
 ## Descrição de Imagens e Elementos Visuais
+
+Para que pessoas com deficiência visual possam compreender o conteúdo visual, é crucial fornecer descrições textuais detalhadas e precisas. Isso garante que ninguém seja excluído da informação transmitida por imagens.
+
 - [ ] Todas as imagens possuem texto alternativo que descreve o que é, onde está e o que está acontecendo?
 - [ ] Imagens decorativas estão sinalizadas corretamente (```alt=""``` ou via CSS)?
 - [ ] Gráficos, mapas e infográficos possuem descrições detalhadas, resumo ou alternativa em texto?
@@ -28,6 +37,9 @@ Nesta seção, apresentamos um checklist com boas práticas para assegurar a ace
 - [ ] Quando há imagens complexas (ex.: diagramas ou fluxogramas), existe uma explicação longa em local apropriado?
 
 ## Mídias (Vídeos, Áudios e Podcasts)
+
+Acessibilidade em mídias significa ir além do visual. Oferecer alternativas para diferentes formatos garante que pessoas com deficiência auditiva, visual ou cognitiva possam consumir o conteúdo em sua totalidade.
+
 - [ ] Todos os vídeos possuem legendas embutidas (Open Caption ou Closed Caption)?
 - [ ] Existe uma descrição textual resumida sobre o conteúdo do vídeo?
 - [ ] O vídeo possui audiodescrição para descrever informações visuais importantes?
@@ -37,11 +49,17 @@ Nesta seção, apresentamos um checklist com boas práticas para assegurar a ace
 - [ ] Foi inserida autodescrição no roteiro dos vídeos ou apresentações? (ex.: "Eu sou João, homem branco, cabelo castanho, estou usando camisa azul...")
 
 ## Hashtags, Emojis e Hipermídias
+
+O uso de hashtags, emojis e links precisa ser pensado para a acessibilidade. Formatações claras e descrições contextuais ajudam leitores de tela e pessoas com diferentes necessidades a navegar e entender o conteúdo.
+
 - [ ] As hashtags usam a primeira letra de cada palavra em maiúscula para facilitar a leitura de leitores de tela? (ex.: #AcessibilidadeDigital)
 - [ ] Foi evitado o uso excessivo de emojis? Quando usados, há contexto suficiente para compreensão?
 - [ ] As descrições de links e botões fazem sentido isoladamente, sem depender do contexto? (ex.: evitar "Clique aqui" → usar "Acesse o formulário")
 
 ## Estrutura
+
+Uma estrutura bem organizada e hierarquizada é essencial para a navegação e compreensão do conteúdo, especialmente para usuários de tecnologias assistivas. Títulos, listas e documentos acessíveis garantem uma experiência fluida.
+
 - [ ] As seções possuem títulos claros e hierarquia (```h1```, ```h2```, ```h3```) consistente?
 - [ ] Foram usadas listas, marcadores, numerações ou tabelas para organizar melhor a informação?
 - [ ] Documentos complementares (PDFs, apresentações) estão acessíveis (texto pesquisável, descrição de imagens, navegação por títulos)?

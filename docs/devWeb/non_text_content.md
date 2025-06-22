@@ -6,6 +6,9 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 
 
 ## Testes 
+
+Garantir a acessibilidade vai além do código; é preciso validar na prática. Testes manuais, e principalmente com pessoas com deficiência, são essenciais para confirmar que a experiência é verdadeiramente inclusiva.
+
 - [ ] Foram realizados testes manuais de acessibilidade?
 - [ ] Foram realizados testes com pessoas com deficiência?
 - [ ] Todos os elementos da página são navegáveis apenas com teclado?
@@ -14,7 +17,11 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 
 ## Código e Estrutura
 
+A estrutura do seu código é a base para a acessibilidade. É através de um HTML bem organizado que as tecnologias assistivas conseguem interpretar e navegar pelo conteúdo da página.
+
 ### Imagens
+
+Nenhuma informação visual pode ser perdida. O texto alternativo (alt) é a ponte que descreve o conteúdo de imagens para quem não pode vê-las.
 
 - [ ] Todas as imagens relevantes possuem texto alternativo (``` alt ```)? <a id="TEC1" href="#RP1">[1]</a>
 - [ ] As imagens decorativas possuem ``` alt="" ``` ou são inseridas via CSS? <a id="TEC1" href="#RP1">[1]</a>
@@ -22,6 +29,8 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 - [ ] Descrições longas são fornecidas no ```alt``` quando necessário (ex.: gráficos, imagens com texto)? <a id="TEC1" href="#RP1">[1]</a>
 
 ### Vídeos e Mídia
+
+Conteúdos audiovisuais precisam de alternativas como legendas e transcrições. Dê ao usuário controle total sobre a reprodução para garantir uma experiência acessível e confortável.
 
 - [ ] Todos os vídeos possuem legendas embutidas ou closed caption? <a id="TEC2" href="#RP2">[2]</a>
 - [ ] Existe transcrição textual para conteúdos em áudio? <a id="TEC1" href="#RP1">[1]</a>
@@ -31,6 +40,8 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 - [ ] Possui ```type``` para botões e entradas? <a id="TEC4" href="#RP4">[4]</a>
 
 ### Controles e Navegação
+
+A navegação deve ser clara e previsível para todos, especialmente para quem usa teclado. Controles lógicos e foco visível são a base para uma boa usabilidade.
 
 - [ ] Todos os links possuem ``` href ``` correto? <a id="TEC4" href="#RP4">[4]</a>  
 - [ ] Links que abrem em nova guia ou nova janela estão claramente sinalizados (underline)? <a id="TEC5" href="#RP5">[5]</a>
@@ -42,6 +53,8 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 
 ### Formulários
 
+Formulários acessíveis precisam de rótulos claros e feedback de erro compreensível. Sem isso, a interação se torna uma barreira para muitos usuários.
+
 - [ ] Todos os campos possuem ```label``` corretamente associados? <a id="TEC9" href="#RP9">[9]</a>
 - [ ] Foram utilizados agrupadores como ```<fieldset>``` e ```<legend>``` quando necessário? <a id="TEC4" href="#RP4">[4]</a>
 - [ ] Campos possuem ```autocomplete``` configurado? <a id="TEC10" href="#RP10">[10]</a>
@@ -50,6 +63,8 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 - [ ] Há descrição clara para os erros e instruções de preenchimento? <a id="TEC5" href="#RP5">[5]</a>
 
 ## Semântica e texto
+
+O uso correto de tags HTML cria a estrutura lógica que guia os leitores de tela. Um texto claro e com tamanho ajustável garante a legibilidade para todos.
 
 ### Semântica
 - [ ] O HTML possui marcação semântica (uso de ```header```, ```nav```, ```main```, ```footer```, ```article```, etc.)?
@@ -64,6 +79,8 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 
 ## Teclado e Acessibilidade Operacional
 
+Tudo o que pode ser feito com um mouse deve ser possível usando apenas o teclado. Garanta uma navegação fluida, com foco sempre visível e sem "armadilhas".
+
 - [ ] Toda a navegação da página pode ser feita usando apenas teclado?
 - [ ] O primeiro elemento focável permite ir diretamente para o conteúdo principal?
 - [ ] Foram evitadas armadilhas de foco (ex.: foco que não sai de um modal)?
@@ -74,32 +91,46 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 ## Componentes e Elementos especiais
 
 ### Título
+
+A hierarquia de títulos (h1 a h6) funciona como um índice para a página. Use-a de forma lógica para permitir que usuários de leitores de tela naveguem com eficiência.
+
 - [ ] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto? <a id="TEC17" href="#RP17">[17]</a>
 - [ ] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
 - [ ] <b>Não pular níveis lógicos</b>.
 - [ ] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
 
 ### Tabela
+
+Tabelas devem ser usadas para dados, com a marcação correta para criar relação entre as informações. Isso transforma uma grade visual em conteúdo compreensível.
+
 - [ ] <b> Elementos em formato de tabela utilizam ``` table ```? </b>.  <a id="TEC4" href="#RP4">[4]</a>
 - [ ] Todas as tabelas usam ```thead```, ```tbody```, ```th``` e ```td``` corretamente? <a id="TEC15" href="#RP15">[15]</a>
 - [ ] Foram aplicados ```scope="col"``` ou ```scope="row"``` quando necessário?
 - [ ] Cada tabela possui uma legenda descritiva usando ```<caption>```? <a id="TEC17" href="#RP17">[17]</a>
 
 ## Modais e Pop-ups
+
+Modais devem gerenciar o foco do teclado de forma inteligente. Garanta que sejam fáceis de abrir, usar e fechar apenas com o teclado, sem prender o usuário.
+
 - [ ] Modais são fáceis de fechar (ex.: com tecla ESC)? <a id="TEC19" href="#RP19">[19]</a>
 - [ ] Não é possível abrir um modal dentro de outro modal (sem controle)? <a id="TEC19" href="#RP19">[19]</a> 
 - [ ] Modais não bloqueiam toda a tela (evitar fullscreen)? <a id="TEC19" href="#RP19">[19]</a>
 - [ ] Existe foco correto no conteúdo quando o modal é aberto
 - [ ] A interação é  uma <b> tarefa simples</b>?</b><a id="TEC19" href="#RP19">[19]</a>
 
-
 ### Dispositivos Móveis e tocáveis
+
+Em telas de toque, áreas clicáveis devem ser grandes e bem espaçadas. O layout precisa se adaptar a qualquer orientação de tela sem perda de conteúdo.
+
 - [ ] O site funciona corretamente em qualquer orientação (paisagem ou retrato)? <a id="TEC15" href="#RP15">[15]</a>
 - [ ] A rolagem horizontal foi evitada? <a id="TEC16" href="#RP15">[16]</a>
 - [ ] Botões e links possuem área de toque mínima de 44px por 44px (WCAG 2.5.7)? <a id="TEC18" href="#RP18">[18]</a>
 - [ ] Há espaçamento suficiente entre elementos interativos? <a id="TEC7" href="#RP7">[7]</a>
 
 ### Ferramentas e Funcionalidades extras
+
+Pequenos recursos como busca, breadcrumbs e CAPTCHAs acessíveis fazem uma grande diferença, aprimorando a usabilidade geral do seu site.
+
 - [ ] É possível pausar, parar ou ocultar conteúdo em movimento?
 - [ ] Breadcrumbs foram implementados para indicar a localização no site?
 - [ ] Existe uma página de acessibilidade ou FAQ acessível?

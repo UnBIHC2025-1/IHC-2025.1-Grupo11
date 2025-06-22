@@ -5,6 +5,9 @@ Existe um mito de que a acessibilidade torna um website excessivamente simplific
 Nesta seção, você encontrará um checklist para garantir a acessibilidade no design do seu projeto.
 
 ## Concepção Visual e Design Universal
+
+Um bom design é universal. Ele antecipa as necessidades de todos os usuários desde o início, garantindo que a informação seja compreendida independentemente das habilidades físicas, sensoriais ou cognitivas de cada um.
+
 - [ ] O design foi pensado para ser utilizável por todas as pessoas, independentemente de suas limitações físicas, sensoriais ou cognitivas?
 - [ ] Foram considerados usuários idosos, pessoas com deficiência e pessoas com baixo letramento digital no processo de design?
 - [ ] Existem alternativas visuais, textuais e auditivas para os conteúdos?
@@ -12,6 +15,9 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 - [ ] Gráficos, mapas e diagramas possuem descrição ou legenda textual?
 
 ## Layout, Espaçamento e Legibilidade
+
+A organização visual do conteúdo é fundamental para a clareza e o conforto da leitura. Um layout flexível, com bom espaçamento e tipografia legível, permite que os usuários adaptem a página às suas necessidades sem quebrar a experiência.
+
 - [ ] O layout permite aumento de fontes e modificação de contraste sem quebra ou sobreposição?
 - [ ] As linhas de texto se ajustam à tela (viewport) e não exigem rolagem horizontal? <a id="TEC5"href="#RP5">[5]</a>
 - [ ] Os parágrafos têm até 80 caracteres por linha para favorecer a leitura?
@@ -26,12 +32,18 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 - [ ] <b> Garante que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo? <a id="TEC4" href="#RP4">[4]</a>
 - [ ] Toma o devido cuidado com <b>``` display:none ``` e ``` visibility:hidden ``` para os recursos de tecnologia assistiva</b>
 
-## Animação
+## Animações
+
+Animações podem enriquecer a experiência, mas também podem distrair ou causar reações adversas. É essencial oferecer controle ao usuário, permitindo pausar movimentos e respeitando as preferências de redução de movimento do sistema.
+
 - [ ] Elementos piscando ou com flashes que possam causar desconforto (ex.: risco para pessoas com epilepsia) são evitados? <a id="TEC6" href="#RP6">[6]</a>
 - [ ] O usuário consegue pausar, interromper ou desativar conteúdos animados ou em movimento? <a id="TEC7" href="#RP7">[7]</a>
 - [ ] As animações respeitam as configurações de sistema do usuário, como ```prefers-reduced-motion```? <a id="TEC8" href="#RP8">[8]</a>
 
 ## Contraste de Cores
+
+O contraste de cores é a base da legibilidade visual. Garantir que textos e elementos importantes se destaquem do fundo é vital para pessoas com baixa visão, sendo crucial também não depender apenas da cor para transmitir informações.
+
 - [ ] O contraste do texto normal é de no mínimo 4.5:1? <a id="TEC9" href="#RP9">[9]</a>
 - [ ] O contraste dos textos grandes (18px negrito ou 24px normal) é de no mínimo 3:1? <a id="TEC9" href="#RP9">[9]</a>
 - [ ] Informações importantes (status, erros, instruções) são transmitidas sem depender apenas de cor? <a id="TEC4" href="#RP4">[4]</a>
@@ -43,6 +55,9 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 - [ ] Foi utilizada alguma ferramenta de verificação de contraste (ex.: WebAIM, Color Contrast Checker, Axe)?
 
 ## Feedback visual e Interatividade
+
+A interface deve comunicar claramente o que é clicável e o que está acontecendo. Feedbacks visuais, como o destaque de foco (:focus) e a mudança de estado de botões, são pistas essenciais que guiam a interação do usuário.
+
 - [ ] Existe foco visível nos elementos quando usam teclado (ex.: borda, sombra, cor)?
 - [ ] Links estão destacados de forma clara (ex.: sublinhado, mudança de cor)?
 - [ ] Quando um botão ou link é clicado, há feedback visual (ex.: mudança de cor, animação)?
@@ -50,6 +65,9 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 - [ ] Foi evitado o uso de apenas ícones sem texto, principalmente em botões?
 
 ## Acessibilidade Mobile e Responsividade
+
+O design deve ser fluido e adaptar-se a qualquer tela, do desktop ao celular. Em dispositivos móveis, áreas de toque generosas e um layout que evita rolagem horizontal são cruciais para uma navegação fácil e sem erros.
+
 - [ ] O layout é responsivo e se adapta corretamente a diferentes tamanhos de tela (celular, tablet, desktop)?
 - [ ] O site funciona corretamente em orientação retrato e paisagem?
 - [ ] Há rolagem horizontal desnecessária?
@@ -59,6 +77,9 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 - [ ] O espaçamento entre elementos previne erros de toque?
 
 ## Interface e Experiência (UX)
+
+A experiência do usuário (UX) acessível é consistente, organizada e previsível. Uma interface limpa, com hierarquia visual clara e opções de personalização, capacita o usuário a interagir com confiança e conforto.
+
 - [ ] A interface apresenta organização clara, com boa hierarquia visual e sem excesso de informações?
 - [ ] Os elementos da interface (botões, campos, menus) são consistentes em todas as páginas?
 - [ ] Existem opções para aumentar o tamanho da fonte?

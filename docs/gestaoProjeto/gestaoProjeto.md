@@ -5,7 +5,8 @@ A acessibilidade digital pode transformar a vida de milhões de pessoas, e para 
 Nesse sentido, para assegurar que seu software incorpore os requisitos de acessibilidade desde o princípio do desenvolvimento, elabore personas detalhadas com os seguintes perfis abaixo.
 
 ## Definição de personas
-Em seu projeto, foram elaboradas personas para... 
+
+Para construir uma solução inclusiva, precisamos entender os usuários em sua diversidade. A criação de personas com diferentes deficiências e necessidades é o passo fundamental para guiar o projeto com empatia e foco real.
 
 - [ ] <b> O projeto considera personas com Deficiência visual </b> (cegueira, baixa visão, daltonismo ou deficiência cromática)?
 - [ ] <b> O projeto considera personas com Deficiência física </b> (fraqueza, tremores, movimentos involuntá rios, paralisia, limitações da sensação, dor que impede movimento, ausênciade membros)?
@@ -19,17 +20,15 @@ Em seu projeto, foram elaboradas personas para...
 
 ## Formalização
 
+Boas intenções precisam ser oficializadas. Incluir a acessibilidade no escopo formal do projeto e garantir o engajamento de todas as áreas transforma um desejo em um compromisso com entregas concretas e mensuráveis.
+
 - [ ] <b> Existe um documento formalizando o escopo do projeto, incluindo acessibilidade como requisito desde o início?
 - [ ] <b> As áreas envolvidas (desenvolvimento, design, marketing, RH, compras, etc.) foram engajadas no tema da acessibilidade?
 - [ ] <b> Pessoas com deficiência foram envolvidas no levantamento de requisitos ou validação do projeto?
 
 # Conscientização
 
-"Na iniciação do projeto, é necessário garantir que a equipe de projeto esteja consciente sobre a questão da acessibilidade digital, dos direitos das pessoas com deficiência e do potencial de mercado desse público" <a id="TEC1" href="#RP1">[1]</a>.
-
-Sendo assim, existem argumentos que podem facilitar o processo de conscientização da equipe sobre a questão da acessibilidade digital. Esse argumentos estão representados no checklist abaixo. 
-
-Em seu projeto, a equipe está consciente de...
+Uma equipe consciente do "porquê" trabalha com mais propósito. Entender o impacto da acessibilidade, os direitos das pessoas com deficiência e as normas existentes é o motor que impulsiona a construção de produtos melhores e mais humanos.
 
 ## A equipe conhece:
 
@@ -53,12 +52,9 @@ Em seu projeto, a equipe está consciente de...
 
 # Planejamento
 
-"É importante prever e elaborar a arquitetura para todos os públicos com deficiência, visando uma vida autônoma, com segurança e bem-estar" <a id="TEC1" href="#RP1">[1]</a>.
-
-Assim, é de suma importância que se tenha, incluso no plano de projeto, e, definição de recursos alocados, para estratégia de acessibilidade de um projeto de software. 
+Acessibilidade precisa de um plano de ação. É na fase de planejamento que definimos a arquitetura da informação, alocamos os recursos e estabelecemos os critérios técnicos para garantir que a inclusão saia do papel e se torne realidade no produto final.
 
 ## Planejamento de Arquitetura e Processos:
-Em seu planejamento, há...
 
 - [ ] A arquitetura da informação foi pensada para garantir autonomia e segurança para todos os públicos?
 - [ ] Existem atividades bem definidas, cronogramas e responsáveis para os itens de acessibilidade?

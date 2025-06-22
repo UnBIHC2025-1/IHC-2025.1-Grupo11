@@ -11,13 +11,12 @@ Este repositório tem como propósito fornecer um checklist prático de acessibi
 
 ## VerificaWeb
 
-O VerificaAAA é nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
+O VerificaWeb é nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
 
 ## Contribuidores
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/patrickacs"><img style="border-radius: 50%;" src="https://github.com/patrickacs.png" width="100px;" alt=""/><br /><sub><b>Patrick Anderson</b></sub></a><br />
     <td align="center"><a href="https://github.com/caiomsabino"><img style="border-radius: 50%;" src="https://github.com/caiomsabino.png" width="100px;" alt=""/><br /><sub><b>Caio Lucas Messias Sabino</b></sub></a><br />   
     <td align="center"><a href="https://github.com/JoaoSapiencia"><img style="border-radius: 50%;" src="https://github.com/JoaoSapiencia.png" width="100px;" alt=""/><br /><sub><b>=João Victor Pires Sapiência Santos</b></sub></a><br />   
     <td align="center"><a href="https://github.com/PedrooCamilo "><img style="border-radius: 50%;" src="https://github.com/PedrooCamilo.png" width="100px;" alt=""/><br /><sub><b>Pedro Túlio Curvelo Camilo</b></sub></a><br />
