@@ -8,49 +8,44 @@ Nesta seção, apresentamos um checklist com boas práticas para assegurar a ace
 ## Termos
 - [ ] Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
 
-## Textos
-- [ ] Usar textos descomplicados e objetivos. 
-- [ ] Usar de palavras conhecidas. 
-- [ ] Evitar figuras de linguagem. e frases com "senso de ugência" 
-- [ ] Usar pontuação adequada. 
-- [ ] Evitar frases extensas (ideal é ter de 15 a 20 palavras). 
-- [ ] Usar preferencialmente a ordem direta nas orações. 
+## Linguagem, Clareza e Inclusão
+- [ ] O texto utiliza linguagem clara, direta e objetiva?
+- [ ] As palavras são simples, conhecidas e livres de termos técnicos desnecessários?
+- [ ] Foram evitadas figuras de linguagem, gírias, expressões regionais, expressões subjetivas e metáforas?
+- [ ] As frases são curtas, com no máximo 15 a 20 palavras?
+- [ ] A construção das frases segue ordem direta (sujeito → verbo → complemento)?
+- [ ] O texto está estruturado com parágrafos curtos, listas e títulos para facilitar a leitura?
+- [ ] A comunicação respeita diversidade (ex.: pessoas neurodivergentes, pessoas surdas, cegas, físicas, etc.)?
+- [ ] Foram usadas pontuações corretas, que auxiliam na leitura por leitores de tela?
 
-## Descrição de imagens
-- [ ] Identificar o tipo de imagem e personagem (foto, ilustração, mapa, gráfico... e " o que / quem"). 
-- [ ] Localizar (onde). 
-- [ ] Descrever a ação (o que faz, como faz). 
-- [ ] Referenciar. 
+## Descrição de Imagens e Elementos Visuais
+- [ ] Todas as imagens possuem texto alternativo que descreve o que é, onde está e o que está acontecendo?
+- [ ] Imagens decorativas estão sinalizadas corretamente (```alt=""``` ou via CSS)?
+- [ ] Gráficos, mapas e infográficos possuem descrições detalhadas, resumo ou alternativa em texto?
+- [ ] A descrição dos ícones informa sua função (ex.: "Ícone de busca" ou "Abrir menu")?
+- [ ] Ícones possuem texto de apoio ou ```tooltip``` quando sua função não é autoexplicativa?
+- [ ] Quando necessário, o texto alternativo descreve não só o ícone, mas também a ação e o destino (ex.: "Abrir configurações em nova aba")?
+- [ ] Quando há imagens complexas (ex.: diagramas ou fluxogramas), existe uma explicação longa em local apropriado?
 
-## Descrição de imagens complexas
-- [ ] Posicionar gráfico, quadrinhos, quadros e outras imagens compexas em um local separado. 
-- [ ] Descrição sucinta no texto alternativo. 
+## Mídias (Vídeos, Áudios e Podcasts)
+- [ ] Todos os vídeos possuem legendas embutidas (Open Caption ou Closed Caption)?
+- [ ] Existe uma descrição textual resumida sobre o conteúdo do vídeo?
+- [ ] O vídeo possui audiodescrição para descrever informações visuais importantes?
+- [ ] Há espaço para janela de intérprete de Libras, quando necessário?
+- [ ] Podcasts e áudios possuem transcrição completa, incluindo sons de fundo, efeitos e quem está falando?
+- [ ] Existe alternativa visual (ex.: texto ou legenda) para áudios que contêm informações importantes?
+- [ ] Foi inserida autodescrição no roteiro dos vídeos ou apresentações? (ex.: "Eu sou João, homem branco, cabelo castanho, estou usando camisa azul...")
 
-## Ícones
-- [ ] Adicionar iconografia. 
-- [ ] Adicionar ícone e texto. 
-- [ ] Adicionar texto alternativo para ícones clicáveis. 
-- [ ] Descrever no texto alternativo, quando necessário usá-lo, a ação da pessoa usuária e para onde será direcionada. 
+## Hashtags, Emojis e Hipermídias
+- [ ] As hashtags usam a primeira letra de cada palavra em maiúscula para facilitar a leitura de leitores de tela? (ex.: #AcessibilidadeDigital)
+- [ ] Foi evitado o uso excessivo de emojis? Quando usados, há contexto suficiente para compreensão?
+- [ ] As descrições de links e botões fazem sentido isoladamente, sem depender do contexto? (ex.: evitar "Clique aqui" → usar "Acesse o formulário")
 
-## Mídias de vídeo
-- [ ] Adicionar descritivo curto para vídeos. 
-- [ ] Optar pro legendas: Open Caption e Closed Caption para vídeos. 
-
-## Autodescrição
-- [ ] Adionar autodescrição no roteiro dos vídeos 
-
-# Podcasts
-- [ ] Transcrever o conteúdo do episódio. 
-- [ ] Incluir além da partes faladas, como sons de fundos, efeitos sonoros, quem está falando etc. 
-- [ ] Inserir um avatar na página falada para a interpretção do texto transcrito para Libras. 
-- [ ] Considerar também formato de vídeo.
-
-## Hashtags e Emojis
-- [ ] Em hashtags, utilize a primeira letra de cada palavra em maiúsculas para que leitores possam identificar palavras corretamente. 
-- [ ] Não abusar de emojis, pois nem sempre sua descrição é suficiente para um bom entendimento. 
-
-## Hiperlinks
-- [ ] Descrição de links e botões devem ser compreensíveis de maneira maneira isolada. 
+## Estrutura
+- [ ] As seções possuem títulos claros e hierarquia (```h1```, ```h2```, ```h3```) consistente?
+- [ ] Foram usadas listas, marcadores, numerações ou tabelas para organizar melhor a informação?
+- [ ] Documentos complementares (PDFs, apresentações) estão acessíveis (texto pesquisável, descrição de imagens, navegação por títulos)?
+- [ ] As instruções dentro do conteúdo (ex.: preenchimento de formulários) são claras e visíveis?
 
 ## Bibliografia
 
