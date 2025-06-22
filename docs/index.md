@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O VerificaWeb é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos de desenvolvimento web, baseados na ABNT NBR 17225, o Guia de Boas Ppráticas para Acessibilidade Digital e a WCAG 2.2.
+O VerificaWeb é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos de desenvolvimento web, baseados na ABNT NBR 17225, o Guia de Boas Práticas para Acessibilidade Digital e a WCAG 2.2.
 
 ## Equipe
 

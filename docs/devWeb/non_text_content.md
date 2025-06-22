@@ -1,7 +1,9 @@
 # Desenvolvimento
 
-"Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
-testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
+Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundamental que a equipe de desenvolvimento esteja bem preparada. Isso envolve saber como implementar recursos de acessibilidade, desde a fase de design até a codificação, e como verificar sua eficácia.
+
+É crucial que a equipe tenha familiaridade com as ferramentas disponíveis no mercado para testes e padronizações de acessibilidade. Além disso, uma compreensão aprofundada de como pessoas com deficiência interagem com websites e aplicativos é essencial para criar experiências verdadeiramente inclusivas.
+
 
 ## Testes 
 - [ ] Foram realizados testes manuais de acessibilidade?

@@ -1,8 +1,8 @@
 # Primeiro Passo
 
-"Para que a acessibilidade digital possa impactar positivamente a vida de milhões de pessoas, ela deve ser pensada logo no início, na concepção do projeto, fase de iniciação na Gestão de Projetos de Acessibilidade" <a id="TEC1" href="#RP1">[1]</a>.
+A acessibilidade digital pode transformar a vida de milhões de pessoas, e para que isso aconteça, é essencial que ela seja considerada desde as fases iniciais de um projeto. É na concepção, durante a iniciação da Gestão de Projetos de Acessibilidade, que os alicerces para um produto inclusivo são estabelecidos.
 
-Nessa lógica, durante a etapa inicial do desenvolvimento de um software, elabore personas com os seguintes perfis abaixo, dessa forma, seu projeto vai garantir que o software contenha requisitos de acessibilidade.
+Nesse sentido, para assegurar que seu software incorpore os requisitos de acessibilidade desde o princípio do desenvolvimento, elabore personas detalhadas com os seguintes perfis abaixo.
 
 ## Definição de personas
 Em seu projeto, foram elaboradas personas para... 
