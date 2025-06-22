@@ -2,93 +2,109 @@
 
 "Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
 testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
+ 
+ ## Testes 
+ - [ ] Foram realizados testes manuais de acessibilidade?
+ - [ ] Foram realizados testes com pessoas com deficiência?
+ - [ ] Todos os elementos da página são navegáveis apenas com teclado?
+ - [ ] Foram utilizados leitores de tela (ex.: NVDA, VoiceOver, JAWS) nos testes?
+ - [ ] A navegação em dispositivos móveis foi testada para garantir acessibilidade?
 
-## Testes 
+ ## Código e Estrutura
 
-## Código e estrutura
+### Imagens
 
-## Imagens
-- [x] <b> Adicionar ``` alt ``` </b> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Adicionar ``` alt="" ``` </b> para imagens decorativas que não tem significado. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Incluir a descrição no ``` alt ```</b> para imagens que contém texto. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] Todas as imagens relevantes possuem texto alternativo (``` alt ```)? <a id="TEC1" href="#RP1">[1]</a>
+- [ ] As imagens decorativas possuem ``` alt="" ``` ou são inseridas via CSS? <a id="TEC1" href="#RP1">[1]</a>
+- [ ] Nenhuma informação relevante está embutida dentro de imagens?
+- [ ] Descrições longas são fornecidas no ```alt``` quando necessário (ex.: gráficos, imagens com texto)? <a id="TEC1" href="#RP1">[1]</a>
 
-## Vídeos
-- [ ] <b> Adicionar legendas</b> para áudio em vídeos existentes. <a id="TEC2" href="#RP2">[2]</a>
-- [x] <b> Evitar conteúdo com <i>flashes</i> (gatilhos para convulsões)</b> ou manter abaixo dos limites. <a id="TEC3" href="#RP3">[3]</a>
+### Vídeos e Mídia
 
+- [ ] Todos os vídeos possuem legendas embutidas ou closed caption? <a id="TEC2" href="#RP2">[2]</a>
+- [ ] Existe transcrição textual para conteúdos em áudio? <a id="TEC1" href="#RP1">[1]</a>
+- [ ] Foi evitado o uso de conteúdos com flashes que possam causar convulsões? <a id="TEC3" href="#RP3">[3]</a>
+- [ ] O ```autoplay``` de mídias está desabilitado por padrão? <a id="TEC12" href="#RP12">[12]</a>
+- [ ] Possui pausa para todas as mídias? <a id="TEC13" href="#RP13">[13]</a>
+- [ ] Possui ```type``` para botões e entradas? <a id="TEC4" href="#RP4">[4]</a>
+
+### Controles e Navegação
+
+- [ ] Todos os links possuem ``` href ``` correto? <a id="TEC4" href="#RP4">[4]</a>  
+- [ ] Links que abrem em nova guia ou nova janela estão claramente sinalizados (underline)? <a id="TEC5" href="#RP5">[5]</a>
+- [ ] Todos os botões possuem funções semânticas corretas (```type="button"```, ```type="submit"```)? <a id="TEC4" href="#RP4">[4]</a>
+- [ ] Foi implementada navegação por skip-link (atalho para conteúdo principal)? <a id="TEC7" href="#RP7">[7]</a>
+- [ ] O foco do teclado é visível e lógico em toda a navegação?
+- [ ] Links que abrem em uma nova guia ou janela estão identificados e indicados? <a id="TEC8" href="#RP8">[8]</a>
 ## Controles
-- [x] <b> Adicionar ``` href ```</b> para links. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar underline</b> nos links. <a id="TEC5" href="#RP5">[5]</a>
 - [x] <b> Adicionar estados de foco</b> em campos de entrada, botões, e elementos interativos. <a id="TEC6" href="#RP6">[6]</a>
-- [x] <b> Adicionar ```type="button"```</b> nos botões. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar skip-link </b> (link para pular) para o conteúdo principal. <a id="TEC7" href="#RP7">[7]</a>
-- [x] <b> Identifique e comunique </b> links que abrem em uma nova guia ou janela. <a id="TEC8" href="#RP8">[8]</a>
 
-## Formulário
-- [x] <b> Adicionar ``` label ```</b> para os campos de entradas associadas ao elemento correspondente. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Adicionar ``` <fildset> ``` e ``` <legend> ```</b> para seção no formulário. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar ``` autocomplete ```</b> para campos de entrada. <a id="TEC10" href="#RP10">[10]</a>
-- [ ] <b> Exibir ``` errors ``` </b> (erros) de entrada acima do formulário, após envio. <a id="TEC11" href="#RP11">[11]</a>
-- [x] <b> Adicionar ``` aria-describedby ```</b> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a>
-- [ ] <b> Exibir mensagens de erro e sucesso</b> não só visualmente. <a id="TEC5" href="#RP5">[5]</a>
+### Formulários
 
-## Mídia
-- [x] <b> Impedir ``` autoplay ```</b> para vídeos e audios. <a id="TEC12" href="#RP12">[12]</a>
-- [ ] <b> Adicionar ``` type ```</b> para botões e entradas. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar pausa </b> para todas as mídias. <a id="TEC13" href="#RP13">[13]</a>
-- [x] <b> Adicionar transcrição </b> para audios. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] Todos os campos possuem ```label``` corretamente associados? <a id="TEC9" href="#RP9">[9]</a>
+- [ ] Foram utilizados agrupadores como ```<fieldset>``` e ```<legend>``` quando necessário? <a id="TEC4" href="#RP4">[4]</a>
+- [ ] Campos possuem ```autocomplete``` configurado? <a id="TEC10" href="#RP10">[10]</a>
+- [ ] Campos de entrada possuem ```aria-describedby```? <a id="TEC11" href="#RP11">[11]</a>
+- [ ] As mensagens de erro estão visíveis, com bom contraste e próximas aos campos? <a id="TEC11" href="#RP11">[11]</a>
+- [ ] Há descrição clara para os erros e instruções de preenchimento? <a id="TEC5" href="#RP5">[5]</a>
 
-## Semântica
-- [x] Uso de elementos <b>nativos HTML</b>. 
-- [x] Fluxo continuo e <b>Lógico</b>. 
-- [x] Tem <b>descrições</b> que podem ser <b>facilmente compreendidas</b>. 
-- [x] Tem a <b>semântica correta</b>. 
-- [x] É <b>objetivo</b> nos <b>rótulos</b>. 
+## Semântica e texto
 
-## Texto
-- [ ] <b>Evitar</b> o uso de <b>textos dentro de imagens</b>. 
-- [x] <b>Redimensiona os textos na página</b>, aumentando o zoom em até 200%. 
-- [x] <b>Alturas </b> das fontes <b> não é fixa </b>. 
+### Semântica
+- [ ] O HTML possui marcação semântica (uso de ```header```, ```nav```, ```main```, ```footer```, ```article```, etc.)?
+- [ ] A hierarquia dos títulos (```h1``` a ```h6```) segue uma ordem lógica e progressiva?
+- [ ] Os rótulos, botões e links possuem textos claros e objetivos?
+- [ ] Foram evitados nomes genéricos como "Clique aqui"?
 
-## Teclado
-- [ ] <b> Funcionalidades </b> da página web estão <b> disponíveis por teclado </b>. 
-- [ ] Quando se tem o <b>mouseover é permitido o uso de teclado </b>. 
-- [ ] <b>Foco visível</b> remova elementos focalizáveis ​​invisíveis. 
-- [ ] Adicione o <b> ``` .hover, .focus { } ```</b>  para tornar o foco visível. 
-- [ ] Permite/visa o uso de <b> Atalhos de teclado </b> como o ```TAB```. 
-- [ ] <b> Primeiro </b> item interativo da página é um link para o <b> conteúdo principal </b>. 
+### Texto e Leitura
+- [ ] Nenhum texto importante está embutido em imagens?
+- [ ] É possível aumentar o zoom da página até 200% sem perda de conteúdo ou funcionalidade?
+- [ ] O tamanho da fonte é relativo (ex.: ```em```, ```rem```) e não fixo (ex.: ```px```)?
 
-## Título
-- [ ] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto. <a id="TEC17" href="#RP17">[17]</a>
+## Teclado e Acessibilidade Operacional
+
+- [ ] Toda a navegação da página pode ser feita usando apenas teclado?
+- [ ] O primeiro elemento focável permite ir diretamente para o conteúdo principal?
+- [ ] Foram evitadas armadilhas de foco (ex.: foco que não sai de um modal)?
+- [ ] Existe suporte a atalhos de teclado (```TAB```, ```ESC```, etc.)?
+- [ ] O foco é sempre visível (ex.: via CSS: ```:focus```, ```:hover```)?
+- [ ] Quando se tem o <b>mouseover é permitido o uso de teclado </b>?
+
+## Componentes e Elementos especiais
+
+### Título
+- [ ] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto? <a id="TEC17" href="#RP17">[17]</a>
 - [ ] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
 - [ ] <b>Não pular níveis lógicos</b>.
 - [ ] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
 
-## Tabela
-- [ ] <b> Use o ``` table ``` </b> para elementos em formato de tabela.  <a id="TEC4" href="#RP4">[4]</a>
-- [ ] Insira cabeçalhos para explicar os dados, <b>use ``` th ``` com  ``` scope ``` correto</b>.<a id="TEC15" href="#RP15">[15]</a>
-- [ ] <b> Use o ``` captione ``` </b> lemento para fornecer um título para a tabela.<a id="TEC17" href="#RP17">[17]</a>
+### Tabela
+- [ ] <b> Elementos em formato de tabela utilizam ``` table ```? </b>.  <a id="TEC4" href="#RP4">[4]</a>
+- [ ] Todas as tabelas usam ```thead```, ```tbody```, ```th``` e ```td``` corretamente? <a id="TEC15" href="#RP15">[15]</a>
+- [ ] Foram aplicados ```scope="col"``` ou ```scope="row"``` quando necessário?
+- [ ] Cada tabela possui uma legenda descritiva usando ```<caption>```? <a id="TEC17" href="#RP17">[17]</a>
 
-## Modais
-- [ ] Deve ser <b> fácil fechar </b>.<a id="TEC19" href="#RP19">[19]</a>
-- [ ] Permiti o <b> uso da tecla escape ``` ESC ```</b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] A interação é  uma <b> tarefa simples</b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b> Evita </b> modais em <b> tela cheia </b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b> Não abrir um modal a partir de outro modal </b>.</b><a id="TEC19" href="#RP19">[19]</a>
+## Modais e Pop-ups
+- [ ] Modais são fáceis de fechar (ex.: com tecla ESC)? <a id="TEC19" href="#RP19">[19]</a>
+- [ ] Não é possível abrir um modal dentro de outro modal (sem controle)? <a id="TEC19" href="#RP19">[19]</a> 
+- [ ] Modais não bloqueiam toda a tela (evitar fullscreen)? <a id="TEC19" href="#RP19">[19]</a>
+- [ ] Existe foco correto no conteúdo quando o modal é aberto
+- [ ] A interação é  uma <b> tarefa simples</b>?</b><a id="TEC19" href="#RP19">[19]</a>
 
-## Dispositivo Móvel e tocável
-- [ ] O site pode ser <b> rotacionado </b> para qualquer orientação.  <a id="TEC15" href="#RP15">[15]</a>
-- [ ] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
-- [ ] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
-- [ ] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
 
-## Ferramentas e extras
-- [ ] Permiti <b> pausar, parar ou ocultar conteúdo em movimento </b>.
-- [ ] Usar <b> Breadcrumbs </b> informando a localização atual nas páginas.
-- [ ] Colocar página ou <b> área de esclarecimento de dúvidas e dicas de acessibilidade </b>.
-- [ ] Áreas clicáveis com no mínimo <b> 44px (pixels) de altura e 44px de largura </b>.
-- [ ] No caso de <b>captcha</b> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
-- [ ] Incluir um <b> campo de busca </b>.
+### Dispositivos Móveis e tocáveis
+- [ ] O site funciona corretamente em qualquer orientação (paisagem ou retrato)? <a id="TEC15" href="#RP15">[15]</a>
+- [ ] A rolagem horizontal foi evitada? <a id="TEC16" href="#RP15">[16]</a>
+- [ ] Botões e links possuem área de toque mínima de 44px por 44px (WCAG 2.5.7)? <a id="TEC18" href="#RP18">[18]</a>
+- [ ] Há espaçamento suficiente entre elementos interativos? <a id="TEC7" href="#RP7">[7]</a>
+
+### Ferramentas e Funcionalidades extras
+- [ ] É possível pausar, parar ou ocultar conteúdo em movimento?
+- [ ] Breadcrumbs foram implementados para indicar a localização no site?
+- [ ] Existe uma página de acessibilidade ou FAQ acessível?
+- [ ] Áreas clicáveis seguem o tamanho mínimo de acessibilidade?
+- [ ] Captchas oferecem alternativas acessíveis (ex.: captcha de áudio ou lógica simples)?
+- [ ] Existe um campo de busca disponível e acessível?
 
 ## Referência Bibliográfica
 
