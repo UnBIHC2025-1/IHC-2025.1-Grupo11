@@ -36,8 +36,7 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] Foi implementada navegação por skip-link (atalho para conteúdo principal)? <a id="TEC7" href="#RP7">[7]</a>
 - [ ] O foco do teclado é visível e lógico em toda a navegação?
 - [ ] Links que abrem em uma nova guia ou janela estão identificados e indicados? <a id="TEC8" href="#RP8">[8]</a>
-## Controles
-- [x] <b> Adicionar estados de foco</b> em campos de entrada, botões, e elementos interativos. <a id="TEC6" href="#RP6">[6]</a>
+- [ ] <b> Adicionar estados de foco</b> em campos de entrada, botões, e elementos interativos. <a id="TEC6" href="#RP6">[6]</a>
 
 ### Formulários
 
