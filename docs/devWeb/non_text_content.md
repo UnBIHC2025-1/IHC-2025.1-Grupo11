@@ -2,15 +2,15 @@
 
 "Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
 testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
- 
- ## Testes 
- - [ ] Foram realizados testes manuais de acessibilidade?
- - [ ] Foram realizados testes com pessoas com deficiência?
- - [ ] Todos os elementos da página são navegáveis apenas com teclado?
- - [ ] Foram utilizados leitores de tela (ex.: NVDA, VoiceOver, JAWS) nos testes?
- - [ ] A navegação em dispositivos móveis foi testada para garantir acessibilidade?
 
- ## Código e Estrutura
+## Testes 
+- [ ] Foram realizados testes manuais de acessibilidade?
+- [ ] Foram realizados testes com pessoas com deficiência?
+- [ ] Todos os elementos da página são navegáveis apenas com teclado?
+- [ ] Foram utilizados leitores de tela (ex.: NVDA, VoiceOver, JAWS) nos testes?
+- [ ] A navegação em dispositivos móveis foi testada para garantir acessibilidade?
+
+## Código e Estrutura
 
 ### Imagens
 
