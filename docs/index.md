@@ -8,7 +8,6 @@ O VerificaWeb é um projeto criado a partir do curso de Interação Humano Compu
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/patrickacs"><img style="border-radius: 50%;" src="https://github.com/patrickacs.png" width="100px;" alt=""/><br /><sub><b>Patrick Anderson</b></sub></a><br />
     <td align="center"><a href="https://github.com/caiomsabino"><img style="border-radius: 50%;" src="https://github.com/caiomsabino.png" width="100px;" alt=""/><br /><sub><b>Caio Lucas Messias Sabino</b></sub></a><br />   
     <td align="center"><a href="https://github.com/JoaoSapiencia"><img style="border-radius: 50%;" src="https://github.com/JoaoSapiencia.png" width="100px;" alt=""/><br /><sub><b>=João Victor Pires Sapiência Santos</b></sub></a><br />   
     <td align="center"><a href="https://github.com/PedrooCamilo "><img style="border-radius: 50%;" src="https://github.com/PedrooCamilo.png" width="100px;" alt=""/><br /><sub><b>Pedro Túlio Curvelo Camilo</b></sub></a><br />
