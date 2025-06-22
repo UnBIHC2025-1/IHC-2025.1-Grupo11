@@ -2,44 +2,69 @@
 
 "Existe uma lenda de que a acessibilidade torna um sítio web muito simples ou feio. Não é verdade: um sítio web bem estruturado pode ser bonito e criativo. É possível, inclusive, criar apresentações visuais diferentes para a mesma estrutura HTML de um sítio web com o uso de CSS e atender a diferentes necessidades". Dessa forma, nessa seção encontra-se checklist que garantam a acessibilidade no design.
 
-## Concepção
+## Concepção Visual e Design Universal
+- [ ] O design foi pensado para ser utilizável por todas as pessoas, independentemente de suas limitações físicas, sensoriais ou cognitivas?
+- [ ] Foram considerados usuários idosos, pessoas com deficiência e pessoas com baixo letramento digital no processo de design?
+- [ ] Existem alternativas visuais, textuais e auditivas para os conteúdos?
+- [ ] Informações e intruções não dependem exclusivamente de cor? <a id="TEC1" href="#RP1">[1]</a>
+- [ ] Gráficos, mapas e diagramas possuem descrição ou legenda textual?
 
-## wireframes
-
-## Responsividade
-
-## Cores e contraste
-
-## Interface e experiência
-
-
-## Aparência
-- [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>
-- [ ] <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a id="TEC3"href="#RP3">[3]</a>
-- [ ] <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a id="TEC5"href="#RP5">[5]</a>
-- [ ] Oferece uma <b> opção de alto contraste </b> (dark-mode) de suas páginas web e aumento de fontes.
-- [ ] Parágrafos com no <b> máximo 80 caracteres por linha </b>.
-- [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>.
-- [ ] Evita o alinhamento justificado.
-- [ ] <b> Fontes são fluidas </b> e de fácil entendimento.
+## Layout, Espaçamento e Legibilidade
+- [ ] O layout permite aumento de fontes e modificação de contraste sem quebra ou sobreposição?
+- [ ] As linhas de texto se ajustam à tela (viewport) e não exigem rolagem horizontal? <a id="TEC5"href="#RP5">[5]</a>
+- [ ] Os parágrafos têm até 80 caracteres por linha para favorecer a leitura?
+- [ ] O texto não está em caixa alta, condensado ou justificado?
+- [ ] Evita o alinhamento justificado?
+- [ ] O tamanho da fonte é ajustável sem perda de conteúdo? <a id="TEC2" href="#RP2">[2]</a>
+- [ ] Elementos clicáveis possuem tamanho mínimo de 44px por 44px?
+- [ ] Há espaçamento suficiente entre elementos interativos para evitar erros de toque, especialmente em dispositivos móveis?
+- [ ] A navegação e a estrutura visual seguem uma hierarquia lógica e consistente (títulos, agrupamento de informações, menus)?
+- [ ] As mensagens de erro, sucesso ou alerta aparecem próximas ao elemento correspondente e são visíveis?
+- [ ] <b> As fontes são fluidas </b> e de fácil entendimento?
+- [ ] <b> Garante que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo? <a id="TEC4" href="#RP4">[4]</a>
 - [ ] Toma o devido cuidado com <b>``` display:none ``` e ``` visibility:hidden ``` para os recursos de tecnologia assistiva</b>
-- [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.
 
 ## Animação
-- [ ] <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a>
-- [ ] <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a>
-- [ ] <b> Toda a animação</b> deve obedecer à ```prefers-reduced-motion``` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
+- [ ] Elementos piscando ou com flashes que possam causar desconforto (ex.: risco para pessoas com epilepsia) são evitados? <a id="TEC6" href="#RP6">[6]</a>
+- [ ] O usuário consegue pausar, interromper ou desativar conteúdos animados ou em movimento? <a id="TEC7" href="#RP7">[7]</a>
+- [ ] As animações respeitam as configurações de sistema do usuário, como ```prefers-reduced-motion```? <a id="TEC8" href="#RP8">[8]</a>
 
 ## Contraste de Cores
-- [ ] <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
+- [ ] O contraste do texto normal é de no mínimo 4.5:1? <a id="TEC9" href="#RP9">[9]</a>
+- [ ] O contraste dos textos grandes (18px negrito ou 24px normal) é de no mínimo 3:1? <a id="TEC9" href="#RP9">[9]</a>
+- [ ] Informações importantes (status, erros, instruções) são transmitidas sem depender apenas de cor? <a id="TEC4" href="#RP4">[4]</a>
+- [ ] Ícones, bordas de campos, botões e outros elementos possuem contraste suficiente? <a id="#RP4" href="#RP4">[4]</a>
+- [ ] O texto sobre imagens ou vídeos permanece legível? <a id="TEC9" href="#RP9">[9]</a>
+- [ ] Foi testado o contraste de elementos de seleção (como :```:selection```)? <a id="TEC9" href="#RP9">[9]</a>
+- [ ] O design oferece alternativas de contraste, como modo escuro, modo claro ou alto contraste?
+- [ ] Cores foram escolhidas considerando usuários com daltonismo (ex.: evitar combinações como verde/vermelho ou azul/roxo)?
+- [ ] Foi utilizada alguma ferramenta de verificação de contraste (ex.: WebAIM, Color Contrast Checker, Axe)?
+
+## Feedback visual e Interatividade
+- [ ] Existe foco visível nos elementos quando usam teclado (ex.: borda, sombra, cor)?
+- [ ] Links estão destacados de forma clara (ex.: sublinhado, mudança de cor)?
+- [ ] Quando um botão ou link é clicado, há feedback visual (ex.: mudança de cor, animação)?
+- [ ] Controles como botões e links têm descrição textual clara e nomes, além de ícones? <a id="TEC3"href="#RP3">[3]</a>
+- [ ] Foi evitado o uso de apenas ícones sem texto, principalmente em botões?
+
+## Acessibilidade Mobile e Responsividade
+- [ ] O layout é responsivo e se adapta corretamente a diferentes tamanhos de tela (celular, tablet, desktop)?
+- [ ] O site funciona corretamente em orientação retrato e paisagem?
+- [ ] Há rolagem horizontal desnecessária?
+- [ ] Elementos interativos, menus e formulários funcionam de forma eficiente em telas sensíveis ao toque?
+- [ ] Foram evitados elementos flutuantes, modais invasivos ou sobreposição que dificultem o uso em dispositivos móveis?
+- [ ] Botões e links são facilmente acionáveis por toque, considerando áreas sensíveis grandes o suficiente?
+- [ ] O espaçamento entre elementos previne erros de toque?
+
+## Interface e Experiência (UX)
+- [ ] A interface apresenta organização clara, com boa hierarquia visual e sem excesso de informações?
+- [ ] Os elementos da interface (botões, campos, menus) são consistentes em todas as páginas?
+- [ ] Existem opções para aumentar o tamanho da fonte?
+- [ ] Existem opções para alterar o contraste ou ativar dark mode?
+- [ ] O foco visual (borda, destaque) nos elementos interativos é evidente?
+- [ ] Feedbacks visuais são claros (ex.: botões mudam de cor ao passar o mouse ou ao receber foco)?
+- [ ] Mensagens de erro são claras, específicas e visualmente destacadas?
+
 
 ## Referências Bibliograficas
 
