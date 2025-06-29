@@ -18,77 +18,77 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 
 ## Layout, Espaçamento e Legibilidade
 
-- [ ] O layout permite aumento de fontes e modificação de contraste sem quebra ou sobreposição? [[6]](#ref6) [[11]](#ref11)
-- [ ] As linhas de texto se ajustam à tela (viewport) e não exigem rolagem horizontal? [[6]](#ref6) [[11]](#ref11)
-- [ ] Os parágrafos têm até 80 caracteres por linha para favorecer a leitura? [[11]](#ref11)
-- [ ] O texto não está em caixa alta, condensado ou justificado? [[11]](#ref11)
-- [ ] O tamanho da fonte é ajustável sem perda de conteúdo? [[3]](#ref3) [[11]](#ref11)
-- [ ] Elementos clicáveis possuem tamanho mínimo de 44px por 44px? [[11]](#ref11)
-- [ ] Os elementos interativos possuem espaçamento adequado para evitar cliques acidentais? [[11]](#ref11)
-- [ ] A navegação e a estrutura visual seguem uma hierarquia lógica e consistente? [[11]](#ref11)
-- [ ] As mensagens de erro, sucesso ou alerta aparecem próximas ao elemento correspondente e são visíveis? [[11]](#ref11)
-- [ ] As fontes são fluidas e de fácil entendimento? [[11]](#ref11)
-- [ ] Dicas visuais significativas atingem contraste mínimo de 3:1 com o fundo? [[5]](#ref5) [[11]](#ref11)
-- [ ] Evita o uso de `display:none` e `visibility:hidden` para informações essenciais? [[11]](#ref11)
+- [ ] O layout permite aumento de fontes e modificação de contraste sem quebra ou sobreposição? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] As linhas de texto se ajustam à tela (viewport) e não exigem rolagem horizontal? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] Os parágrafos têm até 80 caracteres por linha para favorecer a leitura? [[NBR]](#refNBR)
+- [ ] O texto não está em caixa alta, condensado ou justificado? [[NBR]](#refNBR)
+- [ ] O tamanho da fonte é ajustável sem perda de conteúdo? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] Elementos clicáveis possuem tamanho mínimo de 44px por 44px? [[NBR]](#refNBR)
+- [ ] Os elementos interativos possuem espaçamento adequado para evitar cliques acidentais? [[NBR]](#refNBR)
+- [ ] A navegação e a estrutura visual seguem uma hierarquia lógica e consistente? [[NBR]](#refNBR)
+- [ ] As mensagens de erro, sucesso ou alerta aparecem próximas ao elemento correspondente e são visíveis? [[NBR]](#refNBR)
+- [ ] As fontes são fluidas e de fácil entendimento? [[NBR]](#refNBR)
+- [ ] Dicas visuais significativas atingem contraste mínimo de 3:1 com o fundo? [[5]](#ref5) [[NBR]](#refNBR)
+- [ ] Evita o uso de `display:none` e `visibility:hidden` para informações essenciais? [[NBR]](#refNBR)
 
 ---
 
 ## Animações
 
-- [ ] Existem elementos que piscam excessivamente ou com flashes (evitar mais de 3 por segundo)? [[7]](#ref7) [[11]](#ref11)
-- [ ] O usuário pode pausar, interromper ou ocultar conteúdos animados? [[8]](#ref8) [[11]](#ref11)
-- [ ] As animações respeitam a configuração de sistema `prefers-reduced-motion`? [[9]](#ref9) [[11]](#ref11)
-- [ ] Há opção explícita para desativar animações não essenciais? [[11]](#ref11)
+- [ ] Existem elementos que piscam excessivamente ou com flashes (evitar mais de 3 por segundo)? [[7]](#ref7) [[NBR]](#refNBR)
+- [ ] O usuário pode pausar, interromper ou ocultar conteúdos animados? [[8]](#ref8) [[NBR]](#refNBR)
+- [ ] As animações respeitam a configuração de sistema `prefers-reduced-motion`? [[9]](#ref9) [[NBR]](#refNBR)
+- [ ] Há opção explícita para desativar animações não essenciais? [[NBR]](#refNBR)
 
 ---
 
 ## Contraste de Cores
 
-- [ ] O contraste do texto normal é de no mínimo 4.5:1? [[10]](#ref10) [[11]](#ref11)
-- [ ] O contraste de textos grandes é de no mínimo 3:1? [[10]](#ref10) [[11]](#ref11)
-- [ ] Informações importantes não dependem apenas de cor? [[1]](#ref1) [[10]](#ref10) [[11]](#ref11)
-- [ ] Botões, campos e ícones possuem contraste suficiente? [[5]](#ref5) [[10]](#ref10) [[11]](#ref11)
-- [ ] Texto sobre imagem ou vídeo permanece legível? [[10]](#ref10) [[11]](#ref11)
+- [ ] O contraste do texto normal é de no mínimo 4.5:1? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] O contraste de textos grandes é de no mínimo 3:1? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Informações importantes não dependem apenas de cor? [[1]](#ref1) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Botões, campos e ícones possuem contraste suficiente? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Texto sobre imagem ou vídeo permanece legível? [[10]](#ref10) [[NBR]](#refNBR)
 - [ ] Elementos de seleção como `::selection` respeitam contraste? [[10]](#ref10)
-- [ ] Há opções de contraste alternativo (modo escuro, alto contraste)? [[11]](#ref11)
-- [ ] Cores foram escolhidas considerando daltônicos? [[11]](#ref11)
-- [ ] Foi usada ferramenta de verificação de contraste? [10] [11]
+- [ ] Há opções de contraste alternativo (modo escuro, alto contraste)? [[NBR]](#refNBR)
+- [ ] Cores foram escolhidas considerando daltônicos? [[NBR]](#refNBR)
+- [ ] Foi usada ferramenta de verificação de contraste? [10] [NBR]
 
 ---
 
 ## Feedback visual e Interatividade
 
-- [ ] Existe foco visível nos elementos ao usar teclado? [[4]](#ref4) [[10]](#ref10) [[11]](#ref11)
-- [ ] Links têm destaque visual claro (ex.: sublinhado, cor)? [[1]](#ref1) [[10]](#ref10) [[11]](#ref11)
-- [ ] Botões mudam de cor ou estado ao serem clicados? [[5]](#ref5) [[10]](#ref10) [[11]](#ref11)
-- [ ] Mudanças de estado (hover, focus, active) são perceptíveis? [[5]](#ref5) [[10]](#ref10) [[11]](#ref11)
-- [ ] O primeiro foco do teclado permite pular direto para o conteúdo? [[10]](#ref10) [[11]](#ref11)
-- [ ] Botões e links são acompanhados de texto descritivo além do ícone? [[2]](#ref2) [[4]](#ref4) [[11]](#ref11)
-- [ ] Não há botões que utilizam somente ícones sem contexto textual? [[2]](#ref2) [[4]](#ref4) [[11]](#ref11)
+- [ ] Existe foco visível nos elementos ao usar teclado? [[4]](#ref4) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Links têm destaque visual claro (ex.: sublinhado, cor)? [[1]](#ref1) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Botões mudam de cor ou estado ao serem clicados? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Mudanças de estado (hover, focus, active) são perceptíveis? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] O primeiro foco do teclado permite pular direto para o conteúdo? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] Botões e links são acompanhados de texto descritivo além do ícone? [[2]](#ref2) [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] Não há botões que utilizam somente ícones sem contexto textual? [[2]](#ref2) [[4]](#ref4) [[NBR]](#refNBR)
 
 ---
 
 ## Acessibilidade Mobile e Responsividade
 
-- [ ] O layout é responsivo para diferentes tamanhos de tela? [[11]](#ref11)
-- [ ] A orientação da tela (retrato/paisagem) é respeitada sem quebra de layout? [[6]](#ref6) [[11]](#ref11)
-- [ ] Evita rolagem horizontal desnecessária? [[6]](#ref6) [[11]](#ref11)
-- [ ] Todos os menus, formulários e interações funcionam com toque? [[11]](#ref11)
-- [ ] Evita modais invasivos ou sobreposições que dificultem o toque? [[11]](#ref11)
-- [ ] Áreas sensíveis ao toque têm tamanho adequado? [[6]](#ref6) [[11]](#ref11)
-- [ ] O espaçamento entre elementos evita erros de toque? [[6]](#ref6) [[11]](#ref11)
+- [ ] O layout é responsivo para diferentes tamanhos de tela? [[NBR]](#refNBR)
+- [ ] A orientação da tela (retrato/paisagem) é respeitada sem quebra de layout? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] Evita rolagem horizontal desnecessária? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] Todos os menus, formulários e interações funcionam com toque? [[NBR]](#refNBR)
+- [ ] Evita modais invasivos ou sobreposições que dificultem o toque? [[NBR]](#refNBR)
+- [ ] Áreas sensíveis ao toque têm tamanho adequado? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] O espaçamento entre elementos evita erros de toque? [[6]](#ref6) [[NBR]](#refNBR)
 
 ---
 
 ## Interface e Experiência (UX)
 
-- [ ] A estrutura visual apresenta hierarquia clara? [[3]](#ref3) [[11]](#ref11)
-- [ ] As informações mais importantes estão priorizadas visualmente? [[11]](#ref11)
-- [ ] Componentes visuais são consistentes entre páginas? [[4]](#ref4) [[11]](#ref11)
-- [ ] Há opção para o usuário aumentar a fonte? [[3]](#ref3) [[11]](#ref11)
-- [ ] Existe controle de contraste (ex.: botão de modo escuro)? [[11]](#ref11)
-- [ ] O foco visual está sempre evidente? [[4]](#ref4) [[11]](#ref11)
-- [ ] Feedbacks visuais (erro, sucesso, envio) são claros? [[5]](#ref5) [[11]](#ref11)
+- [ ] A estrutura visual apresenta hierarquia clara? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] As informações mais importantes estão priorizadas visualmente? [[NBR]](#refNBR)
+- [ ] Componentes visuais são consistentes entre páginas? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] Há opção para o usuário aumentar a fonte? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] Existe controle de contraste (ex.: botão de modo escuro)? [[NBR]](#refNBR)
+- [ ] O foco visual está sempre evidente? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] Feedbacks visuais (erro, sucesso, envio) são claros? [[5]](#ref5) [[NBR]](#refNBR)
 - [ ] Mensagens são específicas, compreensíveis e próximas ao campo afetado? [[5]](#ref5)
 
 ---
@@ -108,7 +108,7 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 > [4] WCAG 2.2 Understanding Docs. SC 1.3.3 Sensory Characteristics (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref5"></a>
-> [5] WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html). Acesso em: 15 Jun. 2025.
+> [5] WCAG 2.2 Understanding Docs. SC 1.4.NBR Non-text Contrast (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref6"></a>
 > [6] WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/reflow.html](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). Acesso em: 15 Jun. 2025.
@@ -125,8 +125,8 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 <a id="ref10"></a>
 > [10] WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). Acesso em: 15 Jun. 2025.
 
-<a id="ref11"></a>
-> [11] ABNT NBR 17225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: [https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf)
+<a id="refNBR"></a>
+> [NBR] ABNT NBR 17225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: [https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf)
 
 ## Bibliografia
 > DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 15 Jun. 2025.
