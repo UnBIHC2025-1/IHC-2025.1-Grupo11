@@ -96,37 +96,37 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 ## Referências Bibliográficas
 
 <a id="ref1"></a>
-> [1] WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html. Acesso em: 15 Jun. 2025.
+> [1] WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref2"></a>
-> [2] WCAG 2.2 SC 1.1.1. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html
+> [2] WCAG 2.2 SC 1.1.1. Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html).
 
 <a id="ref3"></a>
-> [3] WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html. Acesso em: 15 Jun. 2025.
+> [3] WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref4"></a>
-> [4] WCAG 2.2 Understanding Docs. SC 1.3.3 Sensory Characteristics (Level A). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html. Acesso em: 15 Jun. 2025.
+> [4] WCAG 2.2 Understanding Docs. SC 1.3.3 Sensory Characteristics (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref5"></a>
-> [5] WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html. Acesso em: 15 Jun. 2025.
+> [5] WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref6"></a>
-> [6] WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/reflow.html. Acesso em: 15 Jun. 2025.
+> [6] WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/reflow.html](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref7"></a>
-> [7] WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html. Acesso em: 15 Jun. 2025.
+> [7] WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref8"></a>
-> [8] WCAG 2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html. Acesso em: 15 Jun. 2025.
+> [8] WCAG 2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref9"></a>
-> [9] WCAG 2.2 Understanding Docs. SC 2.3.3 Animation from Interactions (Level AAA). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html. Acesso em: 15 Jun. 2025.
+> [9] WCAG 2.2 Understanding Docs. SC 2.3.3 Animation from Interactions (Level AAA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref10"></a>
-> [10] WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html. Acesso em: 15 Jun. 2025.
+> [10] WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). Acesso em: 15 Jun. 2025.
 
 <a id="ref11"></a>
-> [11] ABNT NBR 17225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf
+> [11] ABNT NBR 17225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: [https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf)
 
 ## Bibliografia
-> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf. Acesso em: 15 Jun. 2025.
+> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 15 Jun. 2025.
