@@ -4,33 +4,40 @@ repo_name: IHC-2025.1-Grupo11
 site_url: https://unbihc2025-1.github.io/IHC-2025.1-Grupo11/
 site_name: VerificaWeb
 
-##use_directory_urls: False
-
 nav:
-  - Início - VerificaWeb: 'index.md'
+  - 'Início - VerificaWeb': 'index.md'
+  - 'Desenvolvimento Web': 'devWeb/non_text_content.md' # Para abas, simplificamos a navegação
+  - 'Design': 'design/design.md'
+  - 'Geração de Conteúdo': 'geracaoConteudo/conteudo.md'
+  - 'Gestão de Projetos': 'gestaoProjeto/gestaoProjeto.md'
+  - 'Ferramentas': 'tools/ferramentas.md'
 
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
-  
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+# ... (suas configurações de site_name, repo_url, nav, etc. vêm antes) ...
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
-
+  name: material
+  language: pt
+  logo: 'imagens/logo-verificaaa.png'
+  favicon: 'imagens/logo-verificaaa.png'
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+  
+  # BLOCO PARA MUDAR AS COREs
+  palette:
+    - scheme: default
+      primary: amber
+      accent: light-blue
+      toggle:
+        icon: material/lightbulb
+        name: Modo escuro
+    - scheme: slate
+      primary: amber
+      accent: light-blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Modo claro
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -38,4 +45,6 @@ markdown_extensions:
       clickable_checkbox: true
 
 extra_css:
-  - stylesheets/extra.css
+  - 'stylesheets/extra.css'
+
+
