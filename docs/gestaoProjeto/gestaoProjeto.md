@@ -1,3 +1,7 @@
+# Progresso
+
+<canvas id="graficoChecklist" width="400" height="200"></canvas>
+
 # Gestão de Projeto e Acessibilidade
 
 A acessibilidade digital pode transformar a vida de milhões de pessoas, e para que isso aconteça, é essencial que ela seja considerada desde as fases iniciais de um projeto. É na concepção, durante a iniciação da Gestão de Projetos de Acessibilidade, que os alicerces para um produto inclusivo são estabelecidos.

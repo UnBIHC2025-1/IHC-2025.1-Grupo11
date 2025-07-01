@@ -1,3 +1,8 @@
+# Progresso
+
+<canvas id="graficoChecklist" width="400" height="200"></canvas>
+
+
 # Desenvolvimento
 
 Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundamental que a equipe de desenvolvimento esteja bem preparada. Isso envolve saber como implementar recursos de acessibilidade, desde a fase de design até a codificação, e como verificar sua eficácia.

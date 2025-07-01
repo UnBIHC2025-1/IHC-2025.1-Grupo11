@@ -1,3 +1,7 @@
+# Progresso
+
+<canvas id="graficoChecklist" width="400" height="200"></canvas>
+
 # Geração de conteúdo
 
 Cultivando a Acessibilidade na Produção de Conteúdo Digital  

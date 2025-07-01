@@ -1,3 +1,7 @@
+# Progresso
+
+<canvas id="graficoChecklist" width="400" height="200"></canvas>
+
 # Design
 
 Existe um mito de que a acessibilidade torna um website excessivamente simplificado ou visualmente desagradável. Essa ideia está longe da verdade: um site bem estruturado pode ser tanto bonito quanto criativo. É perfeitamente possível, inclusive, desenvolver apresentações visuais distintas para a mesma estrutura HTML de um website, utilizando CSS, e assim atender a uma variedade de necessidades.
@@ -5,11 +9,6 @@ Existe um mito de que a acessibilidade torna um website excessivamente simplific
 Nesta seção, você encontrará um checklist para garantir a acessibilidade no design do seu projeto.
 
 ---
-
-## Progresso
-
-<canvas id="graficoChecklist" width="400" height="200"></canvas>
-
 
 ## Concepção Visual e Design Universal
 
