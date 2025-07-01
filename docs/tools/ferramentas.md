@@ -1,6 +1,6 @@
 # Ferramentas de Acessibilidade
 
-Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, foram elencadas ferramentas de acessibilidade abaixo. 
+A seguir, estão listadas algumas ferramentas úteis para verificar a acessibilidade de sites e aplicações web. Essas ferramentas podem ajudar desenvolvedores e designers a garantir que seus projetos atendam às normas de acessibilidade, promovendo uma experiência mais inclusiva para todos os usuários.  
 
 
 - [Framework de Testes de Acessibilidade ](https://github.com/google/Accessibility-Test-Framework-for-Android)
