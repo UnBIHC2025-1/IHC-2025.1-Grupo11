@@ -1,3 +1,35 @@
+/**
+ * Salva o estado atual (marcado/desmarcado) de todos os checkboxes no localStorage.
+ * Usa o ID de cada checkbox como chave.
+ */
+function salvarEstadoCheckboxes() {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  const estado = {};
+  checkboxes.forEach(cb => {
+    if (cb.id) { // Salva apenas checkboxes que têm um ID
+      estado[cb.id] = cb.checked;
+    }
+  });
+  // localStorage só armazena texto, então convertemos o objeto para uma string JSON
+  localStorage.setItem('estadoChecklistProgresso', JSON.stringify(estado));
+}
+
+/**
+ * Carrega o estado dos checkboxes a partir do localStorage e aplica na página.
+ */
+function carregarEstadoCheckboxes() {
+  const estadoSalvo = localStorage.getItem('estadoChecklistProgresso');
+  if (estadoSalvo) {
+    const estado = JSON.parse(estadoSalvo); // Converte a string JSON de volta para um objeto
+    Object.keys(estado).forEach(checkboxId => {
+      const checkbox = document.getElementById(checkboxId);
+      if (checkbox) {
+        checkbox.checked = estado[checkboxId];
+      }
+    });
+  }
+}
+
 function contarCheckboxPorClasse(classe) {
   const checkboxes = document.querySelectorAll(`input[type="checkbox"].${classe}`);
   const marcados = [...checkboxes].filter(cb => cb.checked).length;
@@ -10,7 +42,6 @@ function gerarDados() {
     { classe: "check-design", titulo: "Design" },
     { classe: "check-desenvolvimento", titulo: "Desenvolvimento" },
     { classe: "check-conteudo", titulo: "Conteúdo" },
-    { classe: "check-ferramentas", titulo: "Ferramentas" }
   ];
 
   return grupos.map(g => {
@@ -31,10 +62,13 @@ function atualizarGrafico(chart) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const ctx = document.getElementById("graficoChecklist");
+  // 1. PRIMEIRO, carrega o estado salvo dos checkboxes do localStorage.
+  carregarEstadoCheckboxes();
 
+  const ctx = document.getElementById("graficoChecklist");
   if (!ctx) return;
 
+  // 2. DEPOIS, gera os dados para o gráfico, que agora refletem o estado carregado.
   const dados = gerarDados();
 
   const chart = new Chart(ctx, {
@@ -71,8 +105,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // 🟢 Atualiza o gráfico sempre que qualquer checkbox for clicado
+  // 3. Adiciona um listener para cada checkbox.
   document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-    cb.addEventListener("change", () => atualizarGrafico(chart));
+    cb.addEventListener("change", () => {
+      // Quando um checkbox muda, atualiza o gráfico E salva o novo estado geral.
+      atualizarGrafico(chart);
+      salvarEstadoCheckboxes();
+    });
   });
 });
