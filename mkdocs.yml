@@ -47,4 +47,8 @@ markdown_extensions:
 extra_css:
   - 'stylesheets/extra.css'
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js
+  - assets/js/progresso-checklist.js
+
 

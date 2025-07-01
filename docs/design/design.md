@@ -6,90 +6,95 @@ Nesta seção, você encontrará um checklist para garantir a acessibilidade no 
 
 ---
 
+## Progresso
+
+<canvas id="graficoChecklist" width="400" height="200"></canvas>
+
+
 ## Concepção Visual e Design Universal
 
-- [ ] O design foi pensado para ser utilizável por todas as pessoas, independentemente de suas limitações físicas, sensoriais ou cognitivas? [[10]](#ref10)
-- [ ] Foram considerados usuários idosos, pessoas com deficiência e pessoas com baixo letramento digital no processo de design? [[10]](#ref10)
-- [ ] Existem alternativas visuais, textuais e auditivas para os conteúdos? [[2]](#ref2) [[10]](#ref10)
-- [ ] Informações e instruções não dependem exclusivamente de cor? [[1]](#ref1) [[10]](#ref10)
-- [ ] Gráficos, mapas e diagramas possuem descrição ou legenda textual? [[2]](#ref2) [[10]](#ref10)
+- [ ] <input type="checkbox" class="check-design"> O design foi pensado para ser utilizável por todas as pessoas, independentemente de suas limitações físicas, sensoriais ou cognitivas? [[10]](#ref10)
+- [ ] <input type="checkbox" class="check-design"> Foram considerados usuários idosos, pessoas com deficiência e pessoas com baixo letramento digital no processo de design? [[10]](#ref10)
+- [ ] <input type="checkbox" class="check-design"> Existem alternativas visuais, textuais e auditivas para os conteúdos? [[2]](#ref2) [[10]](#ref10)
+- [ ] <input type="checkbox" class="check-design"> Informações e instruções não dependem exclusivamente de cor? [[1]](#ref1) [[10]](#ref10)
+- [ ] <input type="checkbox" class="check-design"> Gráficos, mapas e diagramas possuem descrição ou legenda textual? [[2]](#ref2) [[10]](#ref10)
 
 ---
 
 ## Layout, Espaçamento e Legibilidade
 
-- [ ] O layout permite aumento de fontes e modificação de contraste sem quebra ou sobreposição? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] As linhas de texto se ajustam à tela (viewport) e não exigem rolagem horizontal? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] Os parágrafos têm até 80 caracteres por linha para favorecer a leitura? [[NBR]](#refNBR)
-- [ ] O texto não está em caixa alta, condensado ou justificado? [[NBR]](#refNBR)
-- [ ] O tamanho da fonte é ajustável sem perda de conteúdo? [[3]](#ref3) [[NBR]](#refNBR)
-- [ ] Elementos clicáveis possuem tamanho mínimo de 44px por 44px? [[NBR]](#refNBR)
-- [ ] Os elementos interativos possuem espaçamento adequado para evitar cliques acidentais? [[NBR]](#refNBR)
-- [ ] A navegação e a estrutura visual seguem uma hierarquia lógica e consistente? [[NBR]](#refNBR)
-- [ ] As mensagens de erro, sucesso ou alerta aparecem próximas ao elemento correspondente e são visíveis? [[NBR]](#refNBR)
-- [ ] As fontes são fluidas e de fácil entendimento? [[NBR]](#refNBR)
-- [ ] Dicas visuais significativas atingem contraste mínimo de 3:1 com o fundo? [[5]](#ref5) [[NBR]](#refNBR)
-- [ ] Evita o uso de `display:none` e `visibility:hidden` para informações essenciais? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O layout permite aumento de fontes e modificação de contraste sem quebra ou sobreposição? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> As linhas de texto se ajustam à tela (viewport) e não exigem rolagem horizontal? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Os parágrafos têm até 80 caracteres por linha para favorecer a leitura? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O texto não está em caixa alta, condensado ou justificado? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O tamanho da fonte é ajustável sem perda de conteúdo? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Elementos clicáveis possuem tamanho mínimo de 44px por 44px? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Os elementos interativos possuem espaçamento adequado para evitar cliques acidentais? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> A navegação e a estrutura visual seguem uma hierarquia lógica e consistente? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> As mensagens de erro, sucesso ou alerta aparecem próximas ao elemento correspondente e são visíveis? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> As fontes são fluidas e de fácil entendimento? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Dicas visuais significativas atingem contraste mínimo de 3:1 com o fundo? [[5]](#ref5) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Evita o uso de `display:none` e `visibility:hidden` para informações essenciais? [[NBR]](#refNBR)
 
 ---
 
 ## Animações
 
-- [ ] Existem elementos que piscam excessivamente ou com flashes (evitar mais de 3 por segundo)? [[7]](#ref7) [[NBR]](#refNBR)
-- [ ] O usuário pode pausar, interromper ou ocultar conteúdos animados? [[8]](#ref8) [[NBR]](#refNBR)
-- [ ] As animações respeitam a configuração de sistema `prefers-reduced-motion`? [[9]](#ref9) [[NBR]](#refNBR)
-- [ ] Há opção explícita para desativar animações não essenciais? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Existem elementos que piscam excessivamente ou com flashes (evitar mais de 3 por segundo)? [[7]](#ref7) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O usuário pode pausar, interromper ou ocultar conteúdos animados? [[8]](#ref8) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> As animações respeitam a configuração de sistema `prefers-reduced-motion`? [[9]](#ref9) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Há opção explícita para desativar animações não essenciais? [[NBR]](#refNBR)
 
 ---
 
 ## Contraste de Cores
 
-- [ ] O contraste do texto normal é de no mínimo 4.5:1? [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] O contraste de textos grandes é de no mínimo 3:1? [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Informações importantes não dependem apenas de cor? [[1]](#ref1) [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Botões, campos e ícones possuem contraste suficiente? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Texto sobre imagem ou vídeo permanece legível? [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Elementos de seleção como `::selection` respeitam contraste? [[10]](#ref10)
-- [ ] Há opções de contraste alternativo (modo escuro, alto contraste)? [[NBR]](#refNBR)
-- [ ] Cores foram escolhidas considerando daltônicos? [[NBR]](#refNBR)
-- [ ] Foi usada ferramenta de verificação de contraste? [10] [NBR]
+- [ ] <input type="checkbox" class="check-design"> O contraste do texto normal é de no mínimo 4.5:1? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O contraste de textos grandes é de no mínimo 3:1? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Informações importantes não dependem apenas de cor? [[1]](#ref1) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Botões, campos e ícones possuem contraste suficiente? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Texto sobre imagem ou vídeo permanece legível? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Elementos de seleção como `::selection` respeitam contraste? [[10]](#ref10)
+- [ ] <input type="checkbox" class="check-design"> Há opções de contraste alternativo (modo escuro, alto contraste)? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Cores foram escolhidas considerando daltônicos? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Foi usada ferramenta de verificação de contraste? [10] [NBR]
 
 ---
 
 ## Feedback visual e Interatividade
 
-- [ ] Existe foco visível nos elementos ao usar teclado? [[4]](#ref4) [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Links têm destaque visual claro (ex.: sublinhado, cor)? [[1]](#ref1) [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Botões mudam de cor ou estado ao serem clicados? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Mudanças de estado (hover, focus, active) são perceptíveis? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] O primeiro foco do teclado permite pular direto para o conteúdo? [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Botões e links são acompanhados de texto descritivo além do ícone? [[2]](#ref2) [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Não há botões que utilizam somente ícones sem contexto textual? [[2]](#ref2) [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Existe foco visível nos elementos ao usar teclado? [[4]](#ref4) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Links têm destaque visual claro (ex.: sublinhado, cor)? [[1]](#ref1) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Botões mudam de cor ou estado ao serem clicados? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Mudanças de estado (hover, focus, active) são perceptíveis? [[5]](#ref5) [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O primeiro foco do teclado permite pular direto para o conteúdo? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Botões e links são acompanhados de texto descritivo além do ícone? [[2]](#ref2) [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Não há botões que utilizam somente ícones sem contexto textual? [[2]](#ref2) [[4]](#ref4) [[NBR]](#refNBR)
 
 ---
 
 ## Acessibilidade Mobile e Responsividade
 
-- [ ] O layout é responsivo para diferentes tamanhos de tela? [[NBR]](#refNBR)
-- [ ] A orientação da tela (retrato/paisagem) é respeitada sem quebra de layout? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] Evita rolagem horizontal desnecessária? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] Todos os menus, formulários e interações funcionam com toque? [[NBR]](#refNBR)
-- [ ] Evita modais invasivos ou sobreposições que dificultem o toque? [[NBR]](#refNBR)
-- [ ] Áreas sensíveis ao toque têm tamanho adequado? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] O espaçamento entre elementos evita erros de toque? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O layout é responsivo para diferentes tamanhos de tela? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> A orientação da tela (retrato/paisagem) é respeitada sem quebra de layout? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Evita rolagem horizontal desnecessária? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Todos os menus, formulários e interações funcionam com toque? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Evita modais invasivos ou sobreposições que dificultem o toque? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Áreas sensíveis ao toque têm tamanho adequado? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O espaçamento entre elementos evita erros de toque? [[6]](#ref6) [[NBR]](#refNBR)
 
 ---
 
 ## Interface e Experiência (UX)
 
-- [ ] A estrutura visual apresenta hierarquia clara? [[3]](#ref3) [[NBR]](#refNBR)
-- [ ] As informações mais importantes estão priorizadas visualmente? [[NBR]](#refNBR)
-- [ ] Componentes visuais são consistentes entre páginas? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Há opção para o usuário aumentar a fonte? [[3]](#ref3) [[NBR]](#refNBR)
-- [ ] Existe controle de contraste (ex.: botão de modo escuro)? [[NBR]](#refNBR)
-- [ ] O foco visual está sempre evidente? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Feedbacks visuais (erro, sucesso, envio) são claros? [[5]](#ref5) [[NBR]](#refNBR)
-- [ ] Mensagens são específicas, compreensíveis e próximas ao campo afetado? [[5]](#ref5)
+- [ ] <input type="checkbox" class="check-design"> A estrutura visual apresenta hierarquia clara? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> As informações mais importantes estão priorizadas visualmente? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Componentes visuais são consistentes entre páginas? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Há opção para o usuário aumentar a fonte? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Existe controle de contraste (ex.: botão de modo escuro)? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> O foco visual está sempre evidente? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Feedbacks visuais (erro, sucesso, envio) são claros? [[5]](#ref5) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-design"> Mensagens são específicas, compreensíveis e próximas ao campo afetado? [[5]](#ref5)
 
 ---
 
