@@ -13,13 +13,13 @@ Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundame
 
 Garantir a acessibilidade vai além do código; é preciso validar na prática. Testes manuais, e principalmente com pessoas com deficiência, são essenciais para confirmar que a experiência é verdadeiramente inclusiva.
 
-- [ ] Foram realizados testes manuais de acessibilidade? [[NBR]](#refNBR)
-- [ ] Foram realizados testes com pessoas com deficiência? [[NBR]](#refNBR)
-- [ ] Todos os elementos da página são navegáveis apenas com teclado? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] Foram utilizados leitores de tela (ex.: NVDA, VoiceOver, JAWS) nos testes? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] A navegação em dispositivos móveis foi testada para garantir acessibilidade? [[14]](#ref14) [[NBR]](#refNBR)
-- [ ] Foram realizados testes de contraste de cores? [[5]](#ref5) [[NBR]](#refNBR)
-- [ ] O site foi testado em diferentes navegadores e sistemas operacionais? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram realizados testes manuais de acessibilidade? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram realizados testes com pessoas com deficiência? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todos os elementos da página são navegáveis apenas com teclado? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram utilizados leitores de tela (ex.: NVDA, VoiceOver, JAWS) nos testes? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> A navegação em dispositivos móveis foi testada para garantir acessibilidade? [[14]](#ref14) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram realizados testes de contraste de cores? [[5]](#ref5) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O site foi testado em diferentes navegadores e sistemas operacionais? [[NBR]](#refNBR)
 
 ## Código e Estrutura
 
@@ -29,51 +29,51 @@ A estrutura do seu código é a base para a acessibilidade. É através de um HT
 
 Nenhuma informação visual pode ser perdida. O texto alternativo (alt) é a ponte que descreve o conteúdo de imagens para quem não pode vê-las.
 
-- [ ] Todas as imagens relevantes possuem texto alternativo (``` alt ```) descritivo? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] As imagens decorativas possuem ``` alt="" ``` ou são inseridas via CSS? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] Nenhuma informação relevante está embutida dentro de imagens? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] Descrições longas são fornecidas no ```alt``` quando necessário (ex.: gráficos, imagens com texto)? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] Imagens complexas possuem descrição longa em local apropriado? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todas as imagens relevantes possuem texto alternativo (``` alt ```) descritivo? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> As imagens decorativas possuem ``` alt="" ``` ou são inseridas via CSS? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Nenhuma informação relevante está embutida dentro de imagens? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Descrições longas são fornecidas no ```alt``` quando necessário (ex.: gráficos, imagens com texto)? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Imagens complexas possuem descrição longa em local apropriado? [[1]](#ref1) [[NBR]](#refNBR)
 
 ### Vídeos e Mídia
 
 Conteúdos audiovisuais precisam de alternativas como legendas e transcrições. Dê ao usuário controle total sobre a reprodução para garantir uma experiência acessível e confortável.
 
-- [ ] Todos os vídeos possuem legendas embutidas ou closed caption? [[2]](#ref2) [[NBR]](#refNBR)
-- [ ] Existe transcrição textual para conteúdos em áudio? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] Foi evitado o uso de conteúdos com flashes que possam causar convulsões? [[3]](#ref3) [[NBR]](#refNBR)
-- [ ] O ```autoplay``` de mídias está desabilitado por padrão? [[11]](#ref11) [[NBR]](#refNBR)
-- [ ] Possui pausa para todas as mídias? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] Possui ```type``` para botões e entradas? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Vídeos possuem audiodescrição? [[2]](#ref2) [[NBR]](#refNBR)
-- [ ] Existe alternativa visual para áudios importantes? [[2]](#ref2) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todos os vídeos possuem legendas embutidas ou closed caption? [[2]](#ref2) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Existe transcrição textual para conteúdos em áudio? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foi evitado o uso de conteúdos com flashes que possam causar convulsões? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O ```autoplay``` de mídias está desabilitado por padrão? [[11]](#ref11) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Possui pausa para todas as mídias? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Possui ```type``` para botões e entradas? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Vídeos possuem audiodescrição? [[2]](#ref2) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Existe alternativa visual para áudios importantes? [[2]](#ref2) [[NBR]](#refNBR)
 
 ### Controles e Navegação
 
 A navegação deve ser clara e previsível para todos, especialmente para quem usa teclado. Controles lógicos e foco visível são a base para uma boa usabilidade.
 
-- [ ] Todos os links possuem ``` href ``` correto? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Links que abrem em nova guia ou nova janela estão claramente sinalizados? [[8]](#ref8) [[NBR]](#refNBR)
-- [ ] Todos os botões possuem funções semânticas corretas (```type="button"```, ```type="submit"```)? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Foi implementada navegação por skip-link (atalho para conteúdo principal)? [[7]](#ref7) [[NBR]](#refNBR)
-- [ ] O foco do teclado é visível e lógico em toda a navegação? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] Links que abrem em uma nova guia ou janela estão identificados e indicados? [[8]](#ref8) [[NBR]](#refNBR)
-- [ ] Adicionar estados de foco em campos de entrada, botões, e elementos interativos. [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] A navegação pode ser feita por teclado sem armadilhas de foco? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] O primeiro elemento focável permite ir diretamente para o conteúdo principal? [[7]](#ref7) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todos os links possuem ``` href ``` correto? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Links que abrem em nova guia ou nova janela estão claramente sinalizados? [[8]](#ref8) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todos os botões possuem funções semânticas corretas (```type="button"```, ```type="submit"```)? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foi implementada navegação por skip-link (atalho para conteúdo principal)? [[7]](#ref7) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O foco do teclado é visível e lógico em toda a navegação? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Links que abrem em uma nova guia ou janela estão identificados e indicados? [[8]](#ref8) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Adicionar estados de foco em campos de entrada, botões, e elementos interativos. [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> A navegação pode ser feita por teclado sem armadilhas de foco? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O primeiro elemento focável permite ir diretamente para o conteúdo principal? [[7]](#ref7) [[NBR]](#refNBR)
 
 ### Formulários
 
 Formulários acessíveis precisam de rótulos claros e feedback de erro compreensível. Sem isso, a interação se torna uma barreira para muitos usuários.
 
-- [ ] Todos os campos possuem ```label``` corretamente associados? [[9]](#ref9) [[NBR]](#refNBR)
-- [ ] Foram utilizados agrupadores como ```<fieldset>``` e ```<legend>``` quando necessário? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Campos possuem ```autocomplete``` configurado? [[10]](#ref10) [[NBR]](#refNBR)
-- [ ] Campos de entrada possuem ```aria-describedby```? [[NBR]](#refNBR)
-- [ ] As mensagens de erro estão visíveis, com bom contraste e próximas aos campos? [[NBR]](#refNBR)
-- [ ] Há descrição clara para os erros e instruções de preenchimento? [[5]](#ref5) [[NBR]](#refNBR)
-- [ ] O formulário pode ser enviado usando apenas o teclado? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] Campos obrigatórios estão claramente indicados? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todos os campos possuem ```label``` corretamente associados? [[9]](#ref9) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram utilizados agrupadores como ```<fieldset>``` e ```<legend>``` quando necessário? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Campos possuem ```autocomplete``` configurado? [[10]](#ref10) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Campos de entrada possuem ```aria-describedby```? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> As mensagens de erro estão visíveis, com bom contraste e próximas aos campos? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Há descrição clara para os erros e instruções de preenchimento? [[5]](#ref5) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O formulário pode ser enviado usando apenas o teclado? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Campos obrigatórios estão claramente indicados? [[NBR]](#refNBR)
 
 ## Semântica e texto
 
@@ -81,30 +81,30 @@ O uso correto de tags HTML cria a estrutura lógica que guia os leitores de tela
 
 ### Semântica
 
-- [ ] O HTML possui marcação semântica (uso de ```header```, ```nav```, ```main```, ```footer```, ```article```, etc.)? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] A hierarquia dos títulos (```h1``` a ```h6```) segue uma ordem lógica e progressiva? [[16]](#ref16) [[NBR]](#refNBR)
-- [ ] Os rótulos, botões e links possuem textos claros e objetivos? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Foram evitados nomes genéricos como "Clique aqui"? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Tabelas são usadas apenas para dados tabulares, não para layout? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O HTML possui marcação semântica (uso de ```header```, ```nav```, ```main```, ```footer```, ```article```, etc.)? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> A hierarquia dos títulos (```h1``` a ```h6```) segue uma ordem lógica e progressiva? [[16]](#ref16) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Os rótulos, botões e links possuem textos claros e objetivos? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram evitados nomes genéricos como "Clique aqui"? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Tabelas são usadas apenas para dados tabulares, não para layout? [[4]](#ref4) [[NBR]](#refNBR)
 
 ### Texto e Leitura
 
-- [ ] Nenhum texto importante está embutido em imagens? [[1]](#ref1) [[NBR]](#refNBR)
-- [ ] É possível aumentar o zoom da página até 200% sem perda de conteúdo ou funcionalidade? [[15]](#ref15) [[NBR]](#refNBR)
-- [ ] O tamanho da fonte é relativo (ex.: ```em```, ```rem```) e não fixo (ex.: ```px```)? [[3]](#ref3) [[NBR]](#refNBR)
-- [ ] O texto possui contraste suficiente com o fundo? [[5]](#ref5) [[NBR]](#refNBR)
-- [ ] O texto não está em caixa alta, condensado ou justificado? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Nenhum texto importante está embutido em imagens? [[1]](#ref1) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> É possível aumentar o zoom da página até 200% sem perda de conteúdo ou funcionalidade? [[15]](#ref15) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O tamanho da fonte é relativo (ex.: ```em```, ```rem```) e não fixo (ex.: ```px```)? [[3]](#ref3) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O texto possui contraste suficiente com o fundo? [[5]](#ref5) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O texto não está em caixa alta, condensado ou justificado? [[NBR]](#refNBR)
 
 ## Teclado e Acessibilidade Operacional
 
 Tudo o que pode ser feito com um mouse deve ser possível usando apenas o teclado. Garanta uma navegação fluida, com foco sempre visível e sem "armadilhas".
 
-- [ ] Toda a navegação da página pode ser feita usando apenas teclado? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] O primeiro elemento focável permite ir diretamente para o conteúdo principal? [[7]](#ref7) [[NBR]](#refNBR)
-- [ ] Foram evitadas armadilhas de foco (ex.: foco que não sai de um modal)? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] Existe suporte a atalhos de teclado (```TAB```, ```ESC```, etc.)? [[12]](#ref12) [[NBR]](#refNBR)
-- [ ] O foco é sempre visível (ex.: via CSS: ```:focus```, ```:hover```)? [[6]](#ref6) [[NBR]](#refNBR)
-- [ ] Quando se tem o mouseover é permitido o uso de teclado? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Toda a navegação da página pode ser feita usando apenas teclado? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O primeiro elemento focável permite ir diretamente para o conteúdo principal? [[7]](#ref7) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram evitadas armadilhas de foco (ex.: foco que não sai de um modal)? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Existe suporte a atalhos de teclado (```TAB```, ```ESC```, etc.)? [[12]](#ref12) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O foco é sempre visível (ex.: via CSS: ```:focus```, ```:hover```)? [[6]](#ref6) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Quando se tem o mouseover é permitido o uso de teclado? [[NBR]](#refNBR)
 
 ## Componentes e Elementos especiais
 
@@ -112,51 +112,51 @@ Tudo o que pode ser feito com um mouse deve ser possível usando apenas o teclad
 
 A hierarquia de títulos (h1 a h6) funciona como um índice para a página. Use-a de forma lógica para permitir que usuários de leitores de tela naveguem com eficiência.
 
-- [ ] A hierarquia de conteúdo da página é definida por sua lógica, não pelo tamanho do texto? [[16]](#ref16) [[NBR]](#refNBR)
-- [ ] Use elementos de título ```h1 h2 h3``` para apresentar o conteúdo. [[16]](#ref16) [[NBR]](#refNBR)
-- [ ] Não pular níveis lógicos. [[16]](#ref16) [[NBR]](#refNBR)
-- [ ] Toda página contém um título ```h1``` descrevendo a página. [[16]](#ref16) [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> A hierarquia de conteúdo da página é definida por sua lógica, não pelo tamanho do texto? [[16]](#ref16) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Use elementos de título ```h1 h2 h3``` para apresentar o conteúdo. [[16]](#ref16) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Não pular níveis lógicos. [[16]](#ref16) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Toda página contém um título ```h1``` descrevendo a página. [[16]](#ref16) [[17]](#ref17) [[NBR]](#refNBR)
 
 ### Tabela
 
 Tabelas devem ser usadas para dados, com a marcação correta para criar relação entre as informações. Isso transforma uma grade visual em conteúdo compreensível.
 
-- [ ] Elementos em formato de tabela utilizam ```table```? [[4]](#ref4) [[NBR]](#refNBR)
-- [ ] Todas as tabelas usam ```thead```, ```tbody```, ```th``` e ```td``` corretamente? [[14]](#ref14) [[NBR]](#refNBR)
-- [ ] Foram aplicados ```scope="col"``` ou ```scope="row"``` quando necessário? [[14]](#ref14) [[NBR]](#refNBR)
-- [ ] Cada tabela possui uma legenda descritiva usando ```<caption>```? [[16]](#ref16) [[NBR]](#refNBR)
-- [ ] Tabelas não possuem células mescladas sem necessidade? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Elementos em formato de tabela utilizam ```table```? [[4]](#ref4) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Todas as tabelas usam ```thead```, ```tbody```, ```th``` e ```td``` corretamente? [[14]](#ref14) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Foram aplicados ```scope="col"``` ou ```scope="row"``` quando necessário? [[14]](#ref14) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Cada tabela possui uma legenda descritiva usando ```<caption>```? [[16]](#ref16) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Tabelas não possuem células mescladas sem necessidade? [[NBR]](#refNBR)
 
 ## Modais e Pop-ups
 
 Modais devem gerenciar o foco do teclado de forma inteligente. Garanta que sejam fáceis de abrir, usar e fechar apenas com o teclado, sem prender o usuário.
 
-- [ ] Modais são fáceis de fechar (ex.: com tecla ESC)? [[17]](#ref17) [[NBR]](#refNBR)
-- [ ] Não é possível abrir um modal dentro de outro modal (sem controle)? [[17]](#ref17) [[NBR]](#refNBR)
-- [ ] Modais não bloqueiam toda a tela (evitar fullscreen)? [[17]](#ref17) [[NBR]](#refNBR)
-- [ ] Existe foco correto no conteúdo quando o modal é aberto? [[17]](#ref17) [[NBR]](#refNBR)
-- [ ] A interação é uma tarefa simples? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Modais são fáceis de fechar (ex.: com tecla ESC)? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Não é possível abrir um modal dentro de outro modal (sem controle)? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Modais não bloqueiam toda a tela (evitar fullscreen)? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Existe foco correto no conteúdo quando o modal é aberto? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> A interação é uma tarefa simples? [[17]](#ref17) [[NBR]](#refNBR)
 
 ### Dispositivos Móveis e tocáveis
 
 Em telas de toque, áreas clicáveis devem ser grandes e bem espaçadas. O layout precisa se adaptar a qualquer orientação de tela sem perda de conteúdo.
 
-- [ ] O site funciona corretamente em qualquer orientação (paisagem ou retrato)? [[13]](#ref13) [[14]](#ref14) [[NBR]](#refNBR)
-- [ ] A rolagem horizontal foi evitada? [[15]](#ref15) [[NBR]](#refNBR)
-- [ ] Botões e links possuem área de toque mínima de 44px por 44px (WCAG 2.5.7)? [[17]](#ref17) [[NBR]](#refNBR)
-- [ ] Há espaçamento suficiente entre elementos interativos? [[7]](#ref7) [[NBR]](#refNBR)
-- [ ] O layout é responsivo para diferentes tamanhos de tela? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O site funciona corretamente em qualquer orientação (paisagem ou retrato)? [[13]](#ref13) [[14]](#ref14) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> A rolagem horizontal foi evitada? [[15]](#ref15) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Botões e links possuem área de toque mínima de 44px por 44px (WCAG 2.5.7)? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Há espaçamento suficiente entre elementos interativos? [[7]](#ref7) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> O layout é responsivo para diferentes tamanhos de tela? [[NBR]](#refNBR)
 
 ### Ferramentas e Funcionalidades extras
 
 Pequenos recursos como busca, breadcrumbs e CAPTCHAs acessíveis fazem uma grande diferença, aprimorando a usabilidade geral do seu site.
 
-- [ ] É possível pausar, parar ou ocultar conteúdo em movimento? [[11]](#ref11) [[NBR]](#refNBR)
-- [ ] Breadcrumbs foram implementados para indicar a localização no site? [[NBR]](#refNBR)
-- [ ] Existe uma página de acessibilidade ou FAQ acessível? [[NBR]](#refNBR)
-- [ ] Áreas clicáveis seguem o tamanho mínimo de acessibilidade? [[17]](#ref17) [[NBR]](#refNBR)
-- [ ] Captchas oferecem alternativas acessíveis (ex.: captcha de áudio ou lógica simples)? [[NBR]](#refNBR)
-- [ ] Existe um campo de busca disponível e acessível? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> É possível pausar, parar ou ocultar conteúdo em movimento? [[11]](#ref11) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Breadcrumbs foram implementados para indicar a localização no site? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Existe uma página de acessibilidade ou FAQ acessível? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Áreas clicáveis seguem o tamanho mínimo de acessibilidade? [[17]](#ref17) [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Captchas oferecem alternativas acessíveis (ex.: captcha de áudio ou lógica simples)? [[NBR]](#refNBR)
+- [ ] <input type="checkbox" class="check-desenvolvimento"> Existe um campo de busca disponível e acessível? [[NBR]](#refNBR)
 
 ## Referências Bibliográficas
 
