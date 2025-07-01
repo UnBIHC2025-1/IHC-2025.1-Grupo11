@@ -1,0 +1,830 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://unbihc2025-1.github.io/IHC-2025.1-Grupo11/devWeb/non_text_content/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../design/design/">
+      
+      
+      <link rel="icon" href="../../imagens/logo-verificaaa.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Desenvolvimento Web - VerificaWeb</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#progresso" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="VerificaWeb" class="md-header__button md-logo" aria-label="VerificaWeb" data-md-component="logo">
+      
+  <img src="../../imagens/logo-verificaaa.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VerificaWeb
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Desenvolvimento Web
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="light-blue"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="light-blue"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo11" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IHC-2025.1-Grupo11
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início - VerificaWeb
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Desenvolvimento Web
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../design/design/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../geracaoConteudo/conteudo/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Geração de Conteúdo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gestaoProjeto/gestaoProjeto/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gestão de Projetos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tools/ferramentas/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Ferramentas
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="VerificaWeb" class="md-nav__button md-logo" aria-label="VerificaWeb" data-md-component="logo">
+      
+  <img src="../../imagens/logo-verificaaa.png" alt="logo">
+
+    </a>
+    VerificaWeb
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo11" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IHC-2025.1-Grupo11
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início - VerificaWeb
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Desenvolvimento Web
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geracaoConteudo/conteudo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geração de Conteúdo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoProjeto/gestaoProjeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestão de Projetos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="progresso">Progresso</h1>
+<canvas id="graficoChecklist" width="400" height="200"></canvas>
+
+<h1 id="desenvolvimento">Desenvolvimento</h1>
+<p>Para garantir que nossos produtos digitais sejam acessíveis a todos, é fundamental que a equipe de desenvolvimento esteja bem preparada. Isso envolve saber como implementar recursos de acessibilidade, desde a fase de design até a codificação, e como verificar sua eficácia.</p>
+<p>É crucial que a equipe tenha familiaridade com as ferramentas disponíveis no mercado para testes e padronizações de acessibilidade. Além disso, uma compreensão aprofundada de como pessoas com deficiência interagem com websites e aplicativos é essencial para criar experiências verdadeiramente inclusivas.</p>
+<h2 id="testes">Testes</h2>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-1"> Foram realizados testes manuais de acessibilidade? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-2"> Foram realizados testes com pessoas com deficiência? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-3"> Todos os elementos da página são navegáveis apenas com teclado? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-4"> Foram utilizados leitores de tela (ex.: NVDA, VoiceOver, JAWS) nos testes? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-5"> A navegação em dispositivos móveis foi testada para garantir acessibilidade? <a href="#ref14">[14]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-6"> Foram realizados testes de contraste de cores? <a href="#ref5">[5]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="testes-7"> O site foi testado em diferentes navegadores e sistemas operacionais? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h2 id="codigo-e-estrutura">Código e Estrutura</h2>
+<h3 id="imagens">Imagens</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="imagens-1"> Todas as imagens relevantes possuem texto alternativo (<code>alt</code>) descritivo? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="imagens-2"> As imagens decorativas possuem <code>alt=""</code> ou são inseridas via CSS? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="imagens-3"> Nenhuma informação relevante está embutida dentro de imagens? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="imagens-4"> Descrições longas são fornecidas no <code>alt</code> quando necessário (ex.: gráficos, imagens com texto)? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="imagens-5"> Imagens complexas possuem descrição longa em local apropriado? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="videos-e-midia">Vídeos e Mídia</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-1"> Todos os vídeos possuem legendas embutidas ou closed caption? <a href="#ref2">[2]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-2"> Existe transcrição textual para conteúdos em áudio? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-3"> Foi evitado o uso de conteúdos com flashes que possam causar convulsões? <a href="#ref3">[3]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-4"> O <code>autoplay</code> de mídias está desabilitado por padrão? <a href="#ref11">[11]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-5"> Possui pausa para todas as mídias? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-6"> Possui <code>type</code> para botões e entradas? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-7"> Vídeos possuem audiodescrição? <a href="#ref2">[2]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="videos-8"> Existe alternativa visual para áudios importantes? <a href="#ref2">[2]</a> <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="controles-e-navegacao">Controles e Navegação</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-1"> Todos os links possuem <code>href</code> correto? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-2"> Links que abrem em nova guia ou nova janela estão claramente sinalizados? <a href="#ref8">[8]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-3"> Todos os botões possuem funções semânticas corretas (<code>type="button"</code>, <code>type="submit"</code>)? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-4"> Foi implementada navegação por skip-link (atalho para conteúdo principal)? <a href="#ref7">[7]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-5"> O foco do teclado é visível e lógico em toda a navegação? <a href="#ref6">[6]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-6"> Links que abrem em uma nova guia ou janela estão identificados e indicados? <a href="#ref8">[8]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-7"> Adicionar estados de foco em campos de entrada, botões, e elementos interativos. <a href="#ref6">[6]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-8"> A navegação pode ser feita por teclado sem armadilhas de foco? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="controles-9"> O primeiro elemento focável permite ir diretamente para o conteúdo principal? <a href="#ref7">[7]</a> <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="formularios">Formulários</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-1"> Todos os campos possuem <code>label</code> corretamente associados? <a href="#ref9">[9]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-2"> Foram utilizados agrupadores como <code>&lt;fieldset&gt;</code> e <code>&lt;legend&gt;</code> quando necessário? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-3"> Campos possuem <code>autocomplete</code> configurado? <a href="#ref10">[10]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-4"> Campos de entrada possuem <code>aria-describedby</code>? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-5"> As mensagens de erro estão visíveis, com bom contraste e próximas aos campos? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-6"> Há descrição clara para os erros e instruções de preenchimento? <a href="#ref5">[5]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-7"> O formulário pode ser enviado usando apenas o teclado? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="formularios-8"> Campos obrigatórios estão claramente indicados? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h2 id="semantica-e-texto">Semântica e texto</h2>
+<h3 id="semantica">Semântica</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="semantica-1"> O HTML possui marcação semântica (uso de <code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>, <code>article</code>, etc.)? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="semantica-2"> A hierarquia dos títulos (<code>h1</code> a <code>h6</code>) segue uma ordem lógica e progressiva? <a href="#ref16">[16]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="semantica-3"> Os rótulos, botões e links possuem textos claros e objetivos? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="semantica-4"> Foram evitados nomes genéricos como "Clique aqui"? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="semantica-5"> Tabelas são usadas apenas para dados tabulares, não para layout? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="texto-e-leitura">Texto e Leitura</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="texto-1"> Nenhum texto importante está embutido em imagens? <a href="#ref1">[1]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="texto-2"> É possível aumentar o zoom da página até 200% sem perda de conteúdo ou funcionalidade? <a href="#ref15">[15]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="texto-3"> O tamanho da fonte é relativo (ex.: <code>em</code>, <code>rem</code>) e não fixo (ex.: <code>px</code>)? <a href="#ref3">[3]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="texto-4"> O texto possui contraste suficiente com o fundo? <a href="#ref5">[5]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="texto-5"> O texto não está em caixa alta, condensado ou justificado? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h2 id="teclado-e-acessibilidade-operacional">Teclado e Acessibilidade Operacional</h2>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="teclado-1"> Toda a navegação da página pode ser feita usando apenas teclado? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="teclado-2"> O primeiro elemento focável permite ir diretamente para o conteúdo principal? <a href="#ref7">[7]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="teclado-3"> Foram evitadas armadilhas de foco (ex.: foco que não sai de um modal)? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="teclado-4"> Existe suporte a atalhos de teclado (<code>TAB</code>, <code>ESC</code>, etc.)? <a href="#ref12">[12]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="teclado-5"> O foco é sempre visível (ex.: via CSS: <code>:focus</code>, <code>:hover</code>)? <a href="#ref6">[6]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="teclado-6"> Quando se tem o mouseover é permitido o uso de teclado? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h2 id="componentes-e-elementos-especiais">Componentes e Elementos especiais</h2>
+<h3 id="titulo">Título</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="titulo-1"> A hierarquia de conteúdo da página é definida por sua lógica, não pelo tamanho do texto? <a href="#ref16">[16]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="titulo-2"> Use elementos de título <code>h1 h2 h3</code> para apresentar o conteúdo. <a href="#ref16">[16]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="titulo-3"> Não pular níveis lógicos. <a href="#ref16">[16]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="titulo-4"> Toda página contém um título <code>h1</code> descrevendo a página. <a href="#ref16">[16]</a> <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="tabela">Tabela</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="tabela-1"> Elementos em formato de tabela utilizam <code>table</code>? <a href="#ref4">[4]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="tabela-2"> Todas as tabelas usam <code>thead</code>, <code>tbody</code>, <code>th</code> e <code>td</code> corretamente? <a href="#ref14">[14]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="tabela-3"> Foram aplicados <code>scope="col"</code> ou <code>scope="row"</code> quando necessário? <a href="#ref14">[14]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="tabela-4"> Cada tabela possui uma legenda descritiva usando <code>&lt;caption&gt;</code>? <a href="#ref16">[16]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="tabela-5"> Tabelas não possuem células mescladas sem necessidade? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h2 id="modais-e-pop-ups">Modais e Pop-ups</h2>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="modais-1"> Modais são fáceis de fechar (ex.: com tecla ESC)? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="modais-2"> Não é possível abrir um modal dentro de outro modal (sem controle)? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="modais-3"> Modais não bloqueiam toda a tela (evitar fullscreen)? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="modais-4"> Existe foco correto no conteúdo quando o modal é aberto? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="modais-5"> A interação é uma tarefa simples? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="dispositivos-moveis-e-tocaveis">Dispositivos Móveis e tocáveis</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="mobile-1"> O site funciona corretamente em qualquer orientação (paisagem ou retrato)? <a href="#ref13">[13]</a> <a href="#ref14">[14]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="mobile-2"> A rolagem horizontal foi evitada? <a href="#ref15">[15]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="mobile-3"> Botões e links possuem área de toque mínima de 44px por 44px (WCAG 2.5.7)? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="mobile-4"> Há espaçamento suficiente entre elementos interativos? <a href="#ref7">[7]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="mobile-5"> O layout é responsivo para diferentes tamanhos de tela? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h3 id="ferramentas-e-funcionalidades-extras">Ferramentas e Funcionalidades extras</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="extras-1"> É possível pausar, parar ou ocultar conteúdo em movimento? <a href="#ref11">[11]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="extras-2"> Breadcrumbs foram implementados para indicar a localização no site? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="extras-3"> Existe uma página de acessibilidade ou FAQ acessível? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="extras-4"> Áreas clicáveis seguem o tamanho mínimo de acessibilidade? <a href="#ref17">[17]</a> <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="extras-5"> Captchas oferecem alternativas acessíveis (ex.: captcha de áudio ou lógica simples)? <a href="#refNBR">[NBR]</a></li>
+<li class="task-list-item"><input type="checkbox"/> <input type="checkbox" class="check-desenvolvimento" id="extras-6"> Existe um campo de busca disponível e acessível? <a href="#refNBR">[NBR]</a></li>
+</ul>
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<p><a id="ref1"></a></p>
+<blockquote>
+<p>[1] WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref2"></a></p>
+<blockquote>
+<p>[2] WCAG 2.2 Understanding Docs. SC 1.2.2 Captions (Prerecorded) (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html">https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref3"></a></p>
+<blockquote>
+<p>[3] WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html">https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref4"></a></p>
+<blockquote>
+<p>[4] WCAG 2.2 Understanding Docs. SC 1.3.1 Info and Relationships (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html">https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref5"></a></p>
+<blockquote>
+<p>[5] WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html">https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref6"></a></p>
+<blockquote>
+<p>[6] WCAG 2.2 Understanding Docs. SC 2.4.7 Focus Visible (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html">https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref7"></a></p>
+<blockquote>
+<p>[7] WCAG 2.2 Understanding Docs. SC 2.4.1 Bypass Blocks (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html">https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref8"></a></p>
+<blockquote>
+<p>[8] WCAG 2.2 Understanding Docs. G201 Giving users advanced warning when opening a new window. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G201">https://www.w3.org/WAI/WCAG22/Techniques/general/G201</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref9"></a></p>
+<blockquote>
+<p>[9] WCAG 2.2 Understanding Docs. SC 3.2.2 On Input (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input.html">https://www.w3.org/WAI/WCAG22/Understanding/on-input.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref10"></a></p>
+<blockquote>
+<p>[10] WCAG 2.2 Understanding Docs. SC 1.3.5 Identify Input Purpose (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html">https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref11"></a></p>
+<blockquote>
+<p>[11] WCAG 2.2 Understanding Docs. SC 1.4.2 Audio Control (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html">https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref12"></a></p>
+<blockquote>
+<p>[12] WCAG 2.2 Understanding Docs. SC 2.1.1 Keyboard (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html">https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref13"></a></p>
+<blockquote>
+<p>[13] WCAG 2.2 Understanding Docs. SC 1.3.4 Orientation (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/orientation.html">https://www.w3.org/WAI/WCAG22/Understanding/orientation.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref14"></a></p>
+<blockquote>
+<p>[14] WCAG 2.2 Understanding Docs. SC 4.1.1 Orientation (Level). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing.html">https://www.w3.org/WAI/WCAG22/Understanding/parsing.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref15"></a></p>
+<blockquote>
+<p>[15] WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow.html">https://www.w3.org/WAI/WCAG22/Understanding/reflow.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref16"></a></p>
+<blockquote>
+<p>[16] WCAG 2.2 Understanding SC 2.4.6 Headings and Labels (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html">https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref17"></a></p>
+<blockquote>
+<p>[17] WCAG 2.2 Understanding Docs. SC 2.5.5 Target Size (Enhanced) (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html">https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="ref18"></a></p>
+<blockquote>
+<p>[18] GUIA DE BOAS PRÁTICAS PARA ACESSIBILIDADE DIGITAL. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html">https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+<p><a id="refNBR"></a></p>
+<blockquote>
+<p>[NBR] ABNT NBR 16225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: <a href="https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-16225-Acessibilidade-Digital.pdf">https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-16225-Acessibilidade-Digital.pdf</a></p>
+</blockquote>
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<p>DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf">https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf</a>. Acesso em: 9 Mai. 2024.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "search.suggest"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+        <script src="../../assets/js/progresso-checklist.js"></script>
+      
+    
+  </body>
+</html>
