@@ -38,10 +38,10 @@ function contarCheckboxPorClasse(classe) {
 
 function gerarDados() {
   const grupos = [
-    { classe: "check-gestao", titulo: "Gestão" },
-    { classe: "check-design", titulo: "Design" },
     { classe: "check-desenvolvimento", titulo: "Desenvolvimento" },
+    { classe: "check-design", titulo: "Design" },
     { classe: "check-conteudo", titulo: "Conteúdo" },
+    { classe: "check-gestao", titulo: "Gestão" },
   ];
 
   return grupos.map(g => {
