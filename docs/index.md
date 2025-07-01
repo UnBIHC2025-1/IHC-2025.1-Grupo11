@@ -14,7 +14,7 @@ O projeto possui algumas seções que podem ser acessadas através do menu acima
 - **Design Visual**: Aborda questões relacionadas ao design visual, como o contraste de cores, o uso de fontes legíveis e a adaptação de elementos visuais para diferentes dispositivos.
 - **Gestão de conteúdo**: Foca na acessibilidade do conteúdo, incluindo a utilização de texto alternativo para imagens, a legibilidade do texto e a organização do conteúdo de forma lógica e coerente.
 - **Gestão de Projetos**: Trata de aspectos relacionados à gestão de projetos, como a inclusão de testes de acessibilidade no processo de desenvolvimento e a capacitação da equipe em práticas de acessibilidade.
-- **Ferramenteas**: Apresenta ferramentas úteis para verificar a acessibilidade de sites, como validadores de HTML, ferramentas de teste de contraste e leitores de tela.
+- **Ferramentas de Acessibilidade**: Apresenta ferramentas úteis para verificar a acessibilidade de sites, como validadores de HTML, ferramentas de teste de contraste e leitores de tela.
 
 
 Para utilizar o VerificaWeb, siga os seguintes passos:
